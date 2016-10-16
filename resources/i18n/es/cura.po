@@ -947,7 +947,7 @@ msgstr "Ver"
 msgctxt "@info:tooltip"
 msgid ""
 "Highlight unsupported areas of the model in red. Without support these areas "
-"will nog print properly."
+"will not print properly."
 msgstr "Resaltar en rojo las áreas del modelo sin soporte. Sin soporte, estas áreas no se imprimirán correctamente."
 
 #: /home/tamara/2.1/Cura/resources/qml/ViewPage.qml:42
@@ -1080,7 +1080,7 @@ msgstr "Para ayudarle a tener mejores ajustes predeterminados para su Ultimaker.
 
 #: /home/tamara/2.1/Cura/resources/qml/WizardPages/SelectUpgradedParts.qml:57
 msgctxt "@option:check"
-msgid "Extruder driver ugrades"
+msgid "Extruder driver upgrades"
 msgstr "Actualizaciones de la unidad del extrusor"
 
 #: /home/tamara/2.1/Cura/resources/qml/WizardPages/SelectUpgradedParts.qml:63

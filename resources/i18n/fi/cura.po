@@ -948,7 +948,7 @@ msgstr "Näytä"
 msgctxt "@info:tooltip"
 msgid ""
 "Highlight unsupported areas of the model in red. Without support these areas "
-"will nog print properly."
+"will not print properly."
 msgstr "Korostaa mallin vailla tukea olevat alueet punaisella. Ilman tukea nämä alueet eivät tulostu kunnolla."
 
 #: /home/tamara/2.1/Cura/resources/qml/ViewPage.qml:42
@@ -1081,7 +1081,7 @@ msgstr "Saat paremmat oletusasetukset Ultimakeriin. Cura haluaisi tietää, mit�
 
 #: /home/tamara/2.1/Cura/resources/qml/WizardPages/SelectUpgradedParts.qml:57
 msgctxt "@option:check"
-msgid "Extruder driver ugrades"
+msgid "Extruder driver upgrades"
 msgstr "Suulakekäytön päivitykset"
 
 #: /home/tamara/2.1/Cura/resources/qml/WizardPages/SelectUpgradedParts.qml:63

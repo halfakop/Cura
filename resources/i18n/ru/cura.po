@@ -3,396 +3,411 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-01 13:45+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2016-10-10 20:08+0300\n"
+"PO-Revision-Date: 2016-10-11 10:15+0300\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Ruslan Popov <ruslan.popov@gmail.com>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru\n"
 
 #: /home/ruben/Projects/Cura/plugins/XRayView/__init__.py:12
 msgctxt "@label"
 msgid "X-Ray View"
-msgstr ""
+msgstr "Просмотр в рентгене"
 
 #: /home/ruben/Projects/Cura/plugins/XRayView/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides the X-Ray view."
-msgstr ""
+msgstr "Предоставляет рентгеновский вид."
 
 #: /home/ruben/Projects/Cura/plugins/XRayView/__init__.py:19
 msgctxt "@item:inlistbox"
 msgid "X-Ray"
-msgstr ""
+msgstr "Рентген"
 
 #: /home/ruben/Projects/Cura/plugins/GCodeWriter/__init__.py:12
 msgctxt "@label"
 msgid "GCode Writer"
-msgstr ""
+msgstr "Запись GCode"
 
 #: /home/ruben/Projects/Cura/plugins/GCodeWriter/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Writes GCode to a file."
-msgstr ""
+msgstr "Записывает GCode в файл."
 
 #: /home/ruben/Projects/Cura/plugins/GCodeWriter/__init__.py:22
 msgctxt "@item:inlistbox"
 msgid "GCode File"
-msgstr ""
+msgstr "Файл GCode"
 
 #: /home/ruben/Projects/Cura/plugins/ChangeLogPlugin/__init__.py:12
 #: /home/ruben/Projects/Cura/plugins/ChangeLogPlugin/ChangeLog.qml:16
 msgctxt "@label"
 msgid "Changelog"
-msgstr ""
+msgstr "Журнал изменений"
 
 #: /home/ruben/Projects/Cura/plugins/ChangeLogPlugin/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Shows changes since latest checked version."
-msgstr ""
+msgstr "Показывает изменения со времени последней отмеченной версии."
 
 #: /home/ruben/Projects/Cura/plugins/ChangeLogPlugin/ChangeLog.py:34
 msgctxt "@item:inmenu"
 msgid "Show Changelog"
-msgstr ""
+msgstr "Показать журнал изменений"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/__init__.py:13
 msgctxt "@label"
 msgid "USB printing"
-msgstr ""
+msgstr "Печать через USB"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/__init__.py:17
 msgctxt "@info:whatsthis"
 msgid ""
 "Accepts G-Code and sends them to a printer. Plugin can also update firmware."
 msgstr ""
+"Принимает G-Code и отправляет его на принтер. Плагин также может обновлять "
+"прошивку."
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/PrinterConnection.py:35
 msgctxt "@item:inmenu"
 msgid "USB printing"
-msgstr ""
+msgstr "USB печать"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/PrinterConnection.py:36
 msgctxt "@action:button"
 msgid "Print with USB"
-msgstr ""
+msgstr "Печатать через USB"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/PrinterConnection.py:37
 msgctxt "@info:tooltip"
 msgid "Print with USB"
-msgstr ""
+msgstr "Печатать через USB"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/USBPrinterManager.py:49
 msgctxt "@title:menu"
 msgid "Firmware"
-msgstr ""
+msgstr "Прошивка"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/USBPrinterManager.py:50
 msgctxt "@item:inmenu"
 msgid "Update Firmware"
-msgstr ""
+msgstr "Обновить прошивку"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/USBPrinterManager.py:101
 msgctxt "@info"
 msgid "Cannot update firmware, there were no connected printers found."
-msgstr ""
+msgstr "Невозможно обновить прошивку, не найдены подключенные принтеры."
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:21
 msgctxt "@action:button"
 msgid "Save to Removable Drive"
-msgstr ""
+msgstr "Сохранить на внешний носитель"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:22
 #, python-brace-format
 msgctxt "@item:inlistbox"
 msgid "Save to Removable Drive {0}"
-msgstr ""
+msgstr "Сохранить на внешний носитель {0}"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:66
 #, python-brace-format
 msgctxt "@info:progress"
 msgid "Saving to Removable Drive <filename>{0}</filename>"
-msgstr ""
+msgstr "Сохранение на внешний носитель <filename>{0}</filename>"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:94
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Saved to Removable Drive {0} as {1}"
-msgstr ""
+msgstr "Сохранено на внешний носитель {0} как {1}"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:95
 msgctxt "@action:button"
 msgid "Eject"
-msgstr ""
+msgstr "Извлечь"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:95
 #, python-brace-format
 msgctxt "@action"
 msgid "Eject removable device {0}"
-msgstr ""
+msgstr "Извлекает внешний носитель {0}"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:100
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Could not save to removable drive {0}: {1}"
-msgstr ""
+msgstr "Невозможно сохранить на внешний носитель {0}: {1}"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/__init__.py:12
 msgctxt "@label"
 msgid "Removable Drive Output Device Plugin"
-msgstr ""
+msgstr "Плагин для работы с внешним носителем"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/__init__.py:14
 msgctxt "@info:whatsthis"
 msgid "Provides removable drive hotplugging and writing support."
-msgstr ""
+msgstr "Предоставляет поддержку для подключения и записи на внешний носитель."
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDrivePlugin.py:49
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Ejected {0}. You can now safely remove the drive."
-msgstr ""
+msgstr "Извлечено {0}. Вы можете теперь безопасно извлечь носитель."
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/RemovableDrivePlugin.py:52
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Failed to eject {0}. Maybe it is still in use?"
-msgstr ""
+msgstr "Невозможно извлечь {0}. Возможно оно ещё используется?"
 
 #: /home/ruben/Projects/Cura/plugins/RemovableDriveOutputDevice/WindowsRemovableDrivePlugin.py:69
 msgctxt "@item:intext"
 msgid "Removable Drive"
-msgstr ""
+msgstr "Внешний носитель"
 
 #: /home/ruben/Projects/Cura/plugins/AutoSave/__init__.py:12
 msgctxt "@label"
 msgid "Auto Save"
-msgstr ""
+msgstr "Автосохранение"
 
 #: /home/ruben/Projects/Cura/plugins/AutoSave/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Automatically saves Preferences, Machines and Profiles after changes."
 msgstr ""
+"Автоматически сохраняет настройки, машины и профили после внесения изменений."
 
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/__init__.py:10
 msgctxt "@label"
 msgid "Slice info"
-msgstr ""
+msgstr "Информация о нарезке модели"
 
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/__init__.py:13
 msgctxt "@info:whatsthis"
 msgid "Submits anonymous slice info. Can be disabled through preferences."
 msgstr ""
+"Отправляет анонимную информацию о нарезке моделей. Может быть отключено "
+"через настройки."
 
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/SliceInfo.py:35
 msgctxt "@info"
 msgid ""
 "Cura automatically sends slice info. You can disable this in preferences"
 msgstr ""
+"Cura автоматически отправляет информацию о нарезке модели. Вы можете "
+"отключить это в настройках."
 
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/SliceInfo.py:36
 msgctxt "@action:button"
 msgid "Dismiss"
-msgstr ""
+msgstr "Отменить"
 
 #: /home/ruben/Projects/Cura/plugins/LegacyProfileReader/__init__.py:12
 msgctxt "@label"
 msgid "Legacy Cura Profile Reader"
-msgstr ""
+msgstr "Чтение устаревших профилей Cura"
 
 #: /home/ruben/Projects/Cura/plugins/LegacyProfileReader/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides support for importing profiles from legacy Cura versions."
 msgstr ""
+"Предоставляет поддержку для импортирования профилей из устаревших версий "
+"Cura."
 
 #: /home/ruben/Projects/Cura/plugins/LegacyProfileReader/__init__.py:21
 msgctxt "@item:inlistbox"
 msgid "Cura 15.04 profiles"
-msgstr ""
+msgstr "Профили Cura 15.04"
 
 #: /home/ruben/Projects/Cura/plugins/GCodeProfileReader/__init__.py:12
 msgctxt "@label"
 msgid "GCode Profile Reader"
-msgstr ""
+msgstr "Чтение профиля из GCode"
 
 #: /home/ruben/Projects/Cura/plugins/GCodeProfileReader/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides support for importing profiles from g-code files."
-msgstr ""
+msgstr "Предоставляет поддержку для импортирования профилей из GCode файлов."
 
 #: /home/ruben/Projects/Cura/plugins/GCodeProfileReader/__init__.py:21
 msgctxt "@item:inlistbox"
 msgid "G-code File"
-msgstr ""
+msgstr "Файл G-code"
 
 #: /home/ruben/Projects/Cura/plugins/LayerView/__init__.py:13
 msgctxt "@label"
 msgid "Layer View"
-msgstr ""
+msgstr "Просмотр слоёв"
 
 #: /home/ruben/Projects/Cura/plugins/LayerView/__init__.py:16
 msgctxt "@info:whatsthis"
 msgid "Provides the Layer view."
-msgstr ""
+msgstr "Предоставляет послойный просмотр."
 
 #: /home/ruben/Projects/Cura/plugins/LayerView/__init__.py:20
 msgctxt "@item:inlistbox"
 msgid "Layers"
-msgstr ""
+msgstr "Слои"
 
 #: /home/ruben/Projects/Cura/plugins/VersionUpgrade/VersionUpgrade21to22/__init__.py:12
 msgctxt "@label"
 msgid "Version Upgrade 2.1 to 2.2"
-msgstr ""
+msgstr "Обновление версии 2.1 до 2.2"
 
 #: /home/ruben/Projects/Cura/plugins/VersionUpgrade/VersionUpgrade21to22/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Upgrades preferences and settings from Cura 2.1 to Cura 2.2."
-msgstr ""
+msgstr "Обновляет настройки с Cura 2.1 до Cura 2.2."
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/__init__.py:12
 msgctxt "@label"
 msgid "Image Reader"
-msgstr ""
+msgstr "Чтение изображений"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Enables ability to generate printable geometry from 2D image files."
 msgstr ""
+"Обеспечивает возможность генерировать печатаемую геометрию из файлов "
+"двухмерных изображений."
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/__init__.py:21
 msgctxt "@item:inlistbox"
 msgid "JPG Image"
-msgstr ""
+msgstr "JPG изображение"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/__init__.py:25
 msgctxt "@item:inlistbox"
 msgid "JPEG Image"
-msgstr ""
+msgstr "JPEG изображение"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/__init__.py:29
 msgctxt "@item:inlistbox"
 msgid "PNG Image"
-msgstr ""
+msgstr "PNG изображение"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/__init__.py:33
 msgctxt "@item:inlistbox"
 msgid "BMP Image"
-msgstr ""
+msgstr "BMP изображение"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/__init__.py:37
 msgctxt "@item:inlistbox"
 msgid "GIF Image"
-msgstr ""
+msgstr "GIF изображение"
 
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/CuraEngineBackend.py:135
 msgctxt "@info:status"
 msgid "Unable to slice. Please check your setting values for errors."
 msgstr ""
+"Невозможно нарезать модель. Пожалуйста, проверьте значения своих настроек на "
+"присутствие ошибок."
 
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/__init__.py:13
 msgctxt "@label"
 msgid "CuraEngine Backend"
-msgstr ""
+msgstr "Движок CuraEngine"
 
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides the link to the CuraEngine slicing backend."
-msgstr ""
+msgstr "Предоставляет связь к движку CuraEngine."
 
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/ProcessSlicedObjectListJob.py:42
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/ProcessSlicedObjectListJob.py:155
 msgctxt "@info:status"
 msgid "Processing Layers"
-msgstr ""
+msgstr "Обработка слоёв"
 
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/__init__.py:12
 msgctxt "@label"
 msgid "Per Object Settings Tool"
-msgstr ""
+msgstr "Инструмент для настройки каждого объекта"
 
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides the Per Object Settings."
-msgstr ""
+msgstr "Предоставляет настройки для каждого объекта."
 
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/__init__.py:19
 msgctxt "@label"
 msgid "Per Object Settings"
-msgstr ""
+msgstr "Настройки объекта"
 
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/__init__.py:20
 msgctxt "@info:tooltip"
 msgid "Configure Per Object Settings"
-msgstr ""
+msgstr "Правка настроек объекта"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/__init__.py:12
 msgctxt "@label"
 msgid "3MF Reader"
-msgstr ""
+msgstr "Чтение 3MF"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides support for reading 3MF files."
-msgstr ""
+msgstr "Предоставляет поддержку для чтения 3MF файлов."
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/__init__.py:21
 msgctxt "@item:inlistbox"
 msgid "3MF File"
-msgstr ""
+msgstr "Файл 3MF"
 
 #: /home/ruben/Projects/Cura/plugins/SolidView/__init__.py:12
 msgctxt "@label"
 msgid "Solid View"
-msgstr ""
+msgstr "Просмотр модели"
 
 #: /home/ruben/Projects/Cura/plugins/SolidView/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides a normal solid mesh view."
-msgstr ""
+msgstr "Предоставляет просмотр твёрдого тела."
 
 #: /home/ruben/Projects/Cura/plugins/SolidView/__init__.py:19
 msgctxt "@item:inmenu"
 msgid "Solid"
-msgstr ""
+msgstr "Твёрдое тело"
 
 #: /home/ruben/Projects/Cura/plugins/CuraProfileWriter/__init__.py:12
 msgctxt "@label"
 msgid "Cura Profile Writer"
-msgstr ""
+msgstr "Запись профиля Cura"
 
 #: /home/ruben/Projects/Cura/plugins/CuraProfileWriter/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides support for exporting Cura profiles."
-msgstr ""
+msgstr "Предоставляет поддержку для экспорта профилей Cura."
 
 #: /home/ruben/Projects/Cura/plugins/CuraProfileWriter/__init__.py:21
 #: /home/ruben/Projects/Cura/plugins/CuraProfileReader/__init__.py:21
 msgctxt "@item:inlistbox"
 msgid "Cura Profile"
-msgstr ""
+msgstr "Профиль Cura"
 
 #: /home/ruben/Projects/Cura/plugins/CuraProfileReader/__init__.py:12
 msgctxt "@label"
 msgid "Cura Profile Reader"
-msgstr ""
+msgstr "Чтение профиля  Cura"
 
 #: /home/ruben/Projects/Cura/plugins/CuraProfileReader/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides support for importing Cura profiles."
-msgstr ""
+msgstr "Предоставляет поддержку для импорта профилей Cura."
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:26
 msgctxt "@title:window"
 msgid "Oops!"
-msgstr ""
+msgstr "Ой!"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:32
 msgctxt "@label"
@@ -401,27 +416,30 @@ msgid ""
 "below to post a bug report at <a href=\"http://github.com/Ultimaker/Cura/"
 "issues\">http://github.com/Ultimaker/Cura/issues</a></p>"
 msgstr ""
+"<p>Выскочило необработанное исключение!</p><p>Пожалуйста, используйте "
+"информацию ниже для создания отчёта об ошибке на <a href=\"http://github.com/"
+"Ultimaker/Cura/issues\">http://github.com/Ultimaker/Cura/issues</a></p>"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:52
 msgctxt "@action:button"
 msgid "Open Web Page"
-msgstr ""
+msgstr "Открыть веб страницу"
 
 #: /home/ruben/Projects/Cura/cura/CuraApplication.py:168
 msgctxt "@info:progress"
 msgid "Setting up scene..."
-msgstr ""
+msgstr "Настройка сцены..."
 
 #: /home/ruben/Projects/Cura/cura/CuraApplication.py:202
 msgctxt "@info:progress"
 msgid "Loading interface..."
-msgstr ""
+msgstr "Загрузка интерфейса..."
 
 #: /home/ruben/Projects/Cura/cura/CuraApplication.py:273
 #, python-format
 msgctxt "@info"
 msgid "%(width).1f x %(depth).1f x %(height).1f mm"
-msgstr ""
+msgstr "%(width).1f x %(depth).1f x %(height).1f мм"
 
 #: /home/ruben/Projects/Cura/plugins/ChangeLogPlugin/ChangeLog.qml:37
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:81
@@ -429,99 +447,99 @@ msgstr ""
 #: /home/ruben/Projects/Cura/resources/qml/EngineLog.qml:38
 msgctxt "@action:button"
 msgid "Close"
-msgstr ""
+msgstr "Закрыть"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/ControlWindow.qml:17
 msgctxt "@title:window"
 msgid "Print with USB"
-msgstr ""
+msgstr "Печать через USB"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/ControlWindow.qml:28
 msgctxt "@label"
 msgid "Extruder Temperature %1"
-msgstr ""
+msgstr "Температура экструдера %1"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/ControlWindow.qml:33
 msgctxt "@label"
 msgid "Bed Temperature %1"
-msgstr ""
+msgstr "Температура стола %1"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/ControlWindow.qml:60
 msgctxt "@action:button"
 msgid "Print"
-msgstr ""
+msgstr "Печать"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/ControlWindow.qml:67
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:191
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:273
 msgctxt "@action:button"
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:20
 msgctxt "@title:window"
 msgid "Firmware Update"
-msgstr ""
+msgstr "Обновление прошивки"
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:38
 msgctxt "@label"
 msgid "Starting firmware update, this may take a while."
-msgstr ""
+msgstr "Запуск обновления прошивки, это может занять некоторое время."
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:43
 msgctxt "@label"
 msgid "Firmware update completed."
-msgstr ""
+msgstr "Обновление прошивки завершено."
 
 #: /home/ruben/Projects/Cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:48
 msgctxt "@label"
 msgid "Updating firmware."
-msgstr ""
+msgstr "Обновление прошивки."
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:21
 msgctxt "@title:window"
 msgid "Convert Image..."
-msgstr ""
+msgstr "Преобразование изображения..."
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:35
 msgctxt "@info:tooltip"
 msgid "The maximum distance of each pixel from \"Base.\""
-msgstr ""
+msgstr "Максимальная дистанция каждого пикселя от \"Основания\"."
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:40
 msgctxt "@action:label"
 msgid "Height (mm)"
-msgstr ""
+msgstr "Высота (мм)"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:58
 msgctxt "@info:tooltip"
 msgid "The base height from the build plate in millimeters."
-msgstr ""
+msgstr "Высота основания от стола в миллиметрах."
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:63
 msgctxt "@action:label"
 msgid "Base (mm)"
-msgstr ""
+msgstr "Основание (мм)"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:81
 msgctxt "@info:tooltip"
 msgid "The width in millimeters on the build plate."
-msgstr ""
+msgstr "Ширина в миллиметрах на столе."
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:86
 msgctxt "@action:label"
 msgid "Width (mm)"
-msgstr ""
+msgstr "Ширина (мм)"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:105
 msgctxt "@info:tooltip"
 msgid "The depth in millimeters on the build plate"
-msgstr ""
+msgstr "Глубина в миллиметрах на столе"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:110
 msgctxt "@action:label"
 msgid "Depth (mm)"
-msgstr ""
+msgstr "Глубина (мм)"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:128
 msgctxt "@info:tooltip"
@@ -531,26 +549,30 @@ msgid ""
 "such that black pixels represent high points on the mesh and white pixels "
 "represent low points on the mesh."
 msgstr ""
+"По умолчанию, белые пиксели представлены высокими точками на объекте, а "
+"чёрные пиксели представлены низкими точками на объекте. Измените эту опцию "
+"для изменения данного поведения, таким образом чёрные пиксели будут "
+"представлены высокими точками, а белые - низкими."
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:141
 msgctxt "@item:inlistbox"
 msgid "Lighter is higher"
-msgstr ""
+msgstr "Светлые выше"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:141
 msgctxt "@item:inlistbox"
 msgid "Darker is higher"
-msgstr ""
+msgstr "Тёмные выше"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:151
 msgctxt "@info:tooltip"
 msgid "The amount of smoothing to apply to the image."
-msgstr ""
+msgstr "Величина размывания для применения к изображению."
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:156
 msgctxt "@action:label"
 msgid "Smoothing"
-msgstr ""
+msgstr "Размывание"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:184
 msgctxt "@action:button"
@@ -560,148 +582,155 @@ msgstr ""
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:95
 msgctxt "@action:button"
 msgid "Add Setting"
-msgstr ""
+msgstr "Добавить настройку"
 
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:135
 msgctxt "@title:window"
 msgid "Pick a Setting to Customize"
-msgstr ""
+msgstr "Выберите настройку для изменения"
 
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:146
 msgctxt "@label:textbox"
 msgid "Filter..."
-msgstr ""
+msgstr "Фильтр..."
 
 #: /home/ruben/Projects/Cura/resources/qml/AddMachineWizard.qml:18
 msgctxt "@title:window"
 msgid "Add Printer"
-msgstr ""
+msgstr "Добавление принтера"
 
 #: /home/ruben/Projects/Cura/resources/qml/AddMachineWizard.qml:25
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/AddMachine.qml:63
 msgctxt "@title"
 msgid "Add Printer"
-msgstr ""
+msgstr "Добавление принтера"
 
 #: /home/ruben/Projects/Cura/resources/qml/JobSpecs.qml:195
 msgctxt "@label"
 msgid "00h 00min"
-msgstr ""
+msgstr "00ч 00мин"
 
 #: /home/ruben/Projects/Cura/resources/qml/JobSpecs.qml:215
 msgctxt "@label"
 msgid "0.0 m"
-msgstr ""
+msgstr "0.0 м"
 
 #: /home/ruben/Projects/Cura/resources/qml/JobSpecs.qml:215
 msgctxt "@label"
 msgid "%1 m"
-msgstr ""
+msgstr "%1 м"
 
 #: /home/ruben/Projects/Cura/resources/qml/AboutDialog.qml:15
 msgctxt "@title:window"
 msgid "About Cura"
-msgstr ""
+msgstr "О Cura"
 
 #: /home/ruben/Projects/Cura/resources/qml/AboutDialog.qml:54
 msgctxt "@label"
 msgid "End-to-end solution for fused filament 3D printing."
-msgstr ""
+msgstr "Полное решение для 3D печати филаментом."
 
 #: /home/ruben/Projects/Cura/resources/qml/AboutDialog.qml:66
 msgctxt "@info:credit"
 msgid ""
 "Cura has been developed by Ultimaker B.V. in cooperation with the community."
 msgstr ""
+"Cura была разработана компанией Ultimaker B.V. в кооперации с сообществом."
 
 #: /home/ruben/Projects/Cura/resources/qml/Sidebar.qml:96
 msgctxt "@label:listbox"
 msgid "Setup"
-msgstr ""
+msgstr "Настройка"
 
 #: /home/ruben/Projects/Cura/resources/qml/Sidebar.qml:250
 msgctxt "@title:tab"
 msgid "Simple"
-msgstr ""
+msgstr "Простая"
 
 #: /home/ruben/Projects/Cura/resources/qml/Sidebar.qml:251
 msgctxt "@title:tab"
 msgid "Advanced"
-msgstr ""
+msgstr "Продвинутая"
 
 #: /home/ruben/Projects/Cura/resources/qml/GeneralPage.qml:14
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:515
 msgctxt "@title:tab"
 msgid "General"
-msgstr ""
+msgstr "Общее"
 
 #: /home/ruben/Projects/Cura/resources/qml/GeneralPage.qml:51
 msgctxt "@label"
 msgid "Language:"
-msgstr ""
+msgstr "Язык:"
 
 #: /home/ruben/Projects/Cura/resources/qml/GeneralPage.qml:62
 msgctxt "@item:inlistbox"
 msgid "English"
-msgstr ""
+msgstr "Английский"
 
 #: /home/ruben/Projects/Cura/resources/qml/GeneralPage.qml:63
 msgctxt "@item:inlistbox"
 msgid "Finnish"
-msgstr ""
+msgstr "Финский"
 
 #: /home/ruben/Projects/Cura/resources/qml/GeneralPage.qml:64
 msgctxt "@item:inlistbox"
 msgid "French"
-msgstr ""
+msgstr "Французский"
 
 #: /home/ruben/Projects/Cura/resources/qml/GeneralPage.qml:65
 msgctxt "@item:inlistbox"
 msgid "German"
-msgstr ""
+msgstr "Немецкий"
 
 #: /home/ruben/Projects/Cura/resources/qml/GeneralPage.qml:66
 msgctxt "@item:inlistbox"
 msgid "Italian"
-msgstr ""
+msgstr "Итальянский"
 
 #: /home/ruben/Projects/Cura/resources/qml/GeneralPage.qml:67
 msgctxt "@item:inlistbox"
 msgid "Dutch"
-msgstr ""
+msgstr "Датский"
 
 #: /home/ruben/Projects/Cura/resources/qml/GeneralPage.qml:68
 msgctxt "@item:inlistbox"
 msgid "Spanish"
-msgstr ""
+msgstr "Испанский"
 
 #: /home/ruben/Projects/Cura/resources/qml/GeneralPage.qml:106
 msgctxt "@label"
 msgid ""
 "You will need to restart the application for language changes to have effect."
 msgstr ""
+"Вам потребуется перезапустить приложения для переключения интерфейса на "
+"выбранный язык."
 
 #: /home/ruben/Projects/Cura/resources/qml/GeneralPage.qml:114
 msgctxt "@info:tooltip"
 msgid ""
 "Should objects on the platform be moved so that they no longer intersect."
 msgstr ""
+"Объекты на платформе должны быть перемещены так, чтобы они больше не "
+"пересекались."
 
 #: /home/ruben/Projects/Cura/resources/qml/GeneralPage.qml:119
 msgctxt "@option:check"
 msgid "Ensure objects are kept apart"
-msgstr ""
+msgstr "Удостовериться, что объекты размещены рядом"
 
 #: /home/ruben/Projects/Cura/resources/qml/GeneralPage.qml:128
 msgctxt "@info:tooltip"
 msgid ""
 "Should opened files be scaled to the build volume if they are too large?"
 msgstr ""
+"Масштабировать ли открытые файлы для размещения внутри печатаемого объёма, "
+"если загруженные объекты не влезают в него?"
 
 #: /home/ruben/Projects/Cura/resources/qml/GeneralPage.qml:133
 msgctxt "@option:check"
 msgid "Scale large files"
-msgstr ""
+msgstr "Масштабирование больших файлов"
 
 #: /home/ruben/Projects/Cura/resources/qml/GeneralPage.qml:142
 msgctxt "@info:tooltip"
@@ -710,166 +739,169 @@ msgid ""
 "models, IP addresses or other personally identifiable information is sent or "
 "stored."
 msgstr ""
+"Можно ли отправлять анонимную информацию о вашей печати в Ultimaker? Следует "
+"отметить, то ни модели, ни IP адреса и никакая другая персональная "
+"информация не будет отправлена или сохранена."
 
 #: /home/ruben/Projects/Cura/resources/qml/GeneralPage.qml:147
 msgctxt "@option:check"
 msgid "Send (anonymous) print information"
-msgstr ""
+msgstr "Отправлять (анонимно) информацию о печати"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:51
 msgctxt "@action:inmenu"
 msgid "Toggle Fu&ll Screen"
-msgstr ""
+msgstr "Полный экран"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:58
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Undo"
-msgstr ""
+msgstr "Отмена"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:66
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Redo"
-msgstr ""
+msgstr "Возврат"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:74
 msgctxt "@action:inmenu menubar:file"
 msgid "&Quit"
-msgstr ""
+msgstr "Выход"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:82
 msgctxt "@action:inmenu menubar:settings"
 msgid "&Preferences..."
-msgstr ""
+msgstr "Настройки..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:89
 msgctxt "@action:inmenu menubar:printer"
 msgid "&Add Printer..."
-msgstr ""
+msgstr "Добавить принтер..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:95
 msgctxt "@action:inmenu menubar:printer"
 msgid "Manage Pr&inters..."
-msgstr ""
+msgstr "Управление принтерами..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:102
 msgctxt "@action:inmenu menubar:profile"
 msgid "&Add Profile..."
-msgstr ""
+msgstr "Добавить профиль..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:108
 msgctxt "@action:inmenu menubar:profile"
 msgid "Manage Profiles..."
-msgstr ""
+msgstr "Управление профилями..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:115
 msgctxt "@action:inmenu menubar:help"
 msgid "Show Online &Documentation"
-msgstr ""
+msgstr "Показать онлайн документацию"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:122
 msgctxt "@action:inmenu menubar:help"
 msgid "Report a &Bug"
-msgstr ""
+msgstr "Отправить отчёт об ошибке"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:129
 msgctxt "@action:inmenu menubar:help"
 msgid "&About..."
-msgstr ""
+msgstr "О Cura"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:136
 msgctxt "@action:inmenu menubar:edit"
 msgid "Delete &Selection"
-msgstr ""
+msgstr "Удалить выделенное"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:145
 msgctxt "@action:inmenu"
 msgid "Delete Object"
-msgstr ""
+msgstr "Удалить объект"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:153
 msgctxt "@action:inmenu"
 msgid "Ce&nter Object on Platform"
-msgstr ""
+msgstr "Поместить объект по центру"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:159
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Group Objects"
-msgstr ""
+msgstr "Сгруппировать объекты"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:167
 msgctxt "@action:inmenu menubar:edit"
 msgid "Ungroup Objects"
-msgstr ""
+msgstr "Разгруппировать объекты"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:175
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Merge Objects"
-msgstr ""
+msgstr "Объединить объекты"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:183
 msgctxt "@action:inmenu"
 msgid "&Duplicate Object"
-msgstr ""
+msgstr "Дублировать объект"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:190
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Clear Build Platform"
-msgstr ""
+msgstr "Очистить стол"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:199
 msgctxt "@action:inmenu menubar:file"
 msgid "Re&load All Objects"
-msgstr ""
+msgstr "Перезагрузить все объекты"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:206
 msgctxt "@action:inmenu menubar:edit"
 msgid "Reset All Object Positions"
-msgstr ""
+msgstr "Сбросить позиции всех объектов"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:212
 msgctxt "@action:inmenu menubar:edit"
 msgid "Reset All Object &Transformations"
-msgstr ""
+msgstr "Сбросить преобразования всех объектов"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:218
 msgctxt "@action:inmenu menubar:file"
 msgid "&Open File..."
-msgstr ""
+msgstr "Открыть файл..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:226
 msgctxt "@action:inmenu menubar:help"
 msgid "Show Engine &Log..."
-msgstr ""
+msgstr "Показать журнал движка..."
 
 #: /home/ruben/Projects/Cura/resources/qml/SaveButton.qml:24
 msgctxt "@label:PrintjobStatus"
 msgid "Please load a 3d model"
-msgstr ""
+msgstr "Пожалуйста, загрузите 3D модель"
 
 #: /home/ruben/Projects/Cura/resources/qml/SaveButton.qml:26
 msgctxt "@label:PrintjobStatus"
 msgid "Preparing to slice..."
-msgstr ""
+msgstr "Подготовка к нарезке на слои..."
 
 #: /home/ruben/Projects/Cura/resources/qml/SaveButton.qml:29
 msgctxt "@label:PrintjobStatus"
 msgid "Slicing..."
-msgstr ""
+msgstr "Нарезка на слои..."
 
 #: /home/ruben/Projects/Cura/resources/qml/SaveButton.qml:31
 msgctxt "@label:PrintjobStatus"
 msgid "Ready to "
-msgstr ""
+msgstr "Готов к "
 
 #: /home/ruben/Projects/Cura/resources/qml/SaveButton.qml:123
 msgctxt "@info:tooltip"
 msgid "Select the active output device"
-msgstr ""
+msgstr "Выберите активное целевое устройство"
 
 #: /home/ruben/Projects/Cura/resources/qml/ProfileSetup.qml:29
 msgctxt "@label"
 msgid "Profile:"
-msgstr ""
+msgstr "Профиль:"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:16
 msgctxt "@title:window"
@@ -879,132 +911,133 @@ msgstr ""
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:53
 msgctxt "@title:menu menubar:toplevel"
 msgid "&File"
-msgstr ""
+msgstr "Файл"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:62
 msgctxt "@title:menu menubar:file"
 msgid "Open &Recent"
-msgstr ""
+msgstr "Открыть недавние"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:92
 msgctxt "@action:inmenu menubar:file"
 msgid "&Save Selection to File"
-msgstr ""
+msgstr "Сохранить выделенное в файл"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:100
 msgctxt "@title:menu menubar:file"
 msgid "Save &All"
-msgstr ""
+msgstr "Сохранить всё"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:128
 msgctxt "@title:menu menubar:toplevel"
 msgid "&Edit"
-msgstr ""
+msgstr "Правка"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:145
 msgctxt "@title:menu menubar:toplevel"
 msgid "&View"
-msgstr ""
+msgstr "Вид"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:167
 msgctxt "@title:menu menubar:toplevel"
 msgid "&Printer"
-msgstr ""
+msgstr "Принтер"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:213
 msgctxt "@title:menu menubar:toplevel"
 msgid "P&rofile"
-msgstr ""
+msgstr "Профиль"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:252
 msgctxt "@title:menu menubar:toplevel"
 msgid "E&xtensions"
-msgstr ""
+msgstr "Расширения"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:285
 msgctxt "@title:menu menubar:toplevel"
 msgid "&Settings"
-msgstr ""
+msgstr "Настройки"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:293
 msgctxt "@title:menu menubar:toplevel"
 msgid "&Help"
-msgstr ""
+msgstr "Справка"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:378
 msgctxt "@action:button"
 msgid "Open File"
-msgstr ""
+msgstr "Открыть файл"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:422
 msgctxt "@action:button"
 msgid "View Mode"
-msgstr ""
+msgstr "Режим просмотра"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:518
 msgctxt "@title:tab"
 msgid "View"
-msgstr ""
+msgstr "Вид"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:665
 msgctxt "@title:window"
 msgid "Open file"
-msgstr ""
+msgstr "Открыть файл"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:36
 msgctxt "@label"
 msgid "Infill:"
-msgstr ""
+msgstr "Заполнение:"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:146
 msgctxt "@label"
 msgid "Hollow"
-msgstr ""
+msgstr "Пустота"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:150
 msgctxt "@label"
 msgid "No (0%) infill will leave your model hollow at the cost of low strength"
 msgstr ""
+"Отсутствие (0%) заполнения сделает вашу модель полой и минимально прочной"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:154
 msgctxt "@label"
 msgid "Light"
-msgstr ""
+msgstr "Лёгкое"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:158
 msgctxt "@label"
 msgid "Light (20%) infill will give your model an average strength"
-msgstr ""
+msgstr "Лёгкое (20%) заполнение придаст вашей модели среднюю прочность"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:162
 msgctxt "@label"
 msgid "Dense"
-msgstr ""
+msgstr "Плотное"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:166
 msgctxt "@label"
 msgid "Dense (50%) infill will give your model an above average strength"
-msgstr ""
+msgstr "Плотное (50%) заполнение придаст вашей модели прочность выше среднего"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:170
 msgctxt "@label"
 msgid "Solid"
-msgstr ""
+msgstr "Твёрдое"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:174
 msgctxt "@label"
 msgid "Solid (100%) infill will make your model completely solid"
-msgstr ""
+msgstr "Твёрдое (100%) заполнение сделает вашу модель полностью твёрдой."
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:193
 msgctxt "@label:listbox"
 msgid "Helpers:"
-msgstr ""
+msgstr "Помощники:"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:213
 msgctxt "@option:check"
 msgid "Generate Brim"
-msgstr ""
+msgstr "Генерировать кайму"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:228
 msgctxt "@label"
@@ -1012,11 +1045,13 @@ msgid ""
 "Enable printing a brim. This will add a single-layer-thick flat area around "
 "your object which is easy to cut off afterwards."
 msgstr ""
+"Разрешает печать каймы. Это добавляет однослойную область вокруг вашего "
+"объекта, которую легко удалить после печати."
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:246
 msgctxt "@option:check"
 msgid "Generate Support Structure"
-msgstr ""
+msgstr "Генерация поддержек"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarSimple.qml:261
 msgctxt "@label"
@@ -1024,16 +1059,18 @@ msgid ""
 "Enable printing support structures. This will build up supporting structures "
 "below the model to prevent the model from sagging or printing in mid air."
 msgstr ""
+"Разрешает печать поддержек. Это позволяет строить поддерживающие структуры "
+"под моделью, предотвращая её от провисания или печати в воздухе."
 
 #: /home/ruben/Projects/Cura/resources/qml/EngineLog.qml:15
 msgctxt "@title:window"
 msgid "Engine Log"
-msgstr ""
+msgstr "Журнал движка"
 
 #: /home/ruben/Projects/Cura/resources/qml/ViewPage.qml:16
 msgctxt "@title:window"
 msgid "View"
-msgstr ""
+msgstr "Просмотр"
 
 #: /home/ruben/Projects/Cura/resources/qml/ViewPage.qml:33
 msgctxt "@info:tooltip"
@@ -1041,49 +1078,51 @@ msgid ""
 "Highlight unsupported areas of the model in red. Without support these areas "
 "will not print properly."
 msgstr ""
+"Подсвечивать красным области модели, требующие поддержек. Без поддержек эти "
+"области не будут напечатаны правильно."
 
 #: /home/ruben/Projects/Cura/resources/qml/ViewPage.qml:42
 msgctxt "@option:check"
 msgid "Display overhang"
-msgstr ""
+msgstr "Отобразить нависание"
 
 #: /home/ruben/Projects/Cura/resources/qml/ViewPage.qml:49
 msgctxt "@info:tooltip"
 msgid ""
 "Moves the camera so the object is in the center of the view when an object "
 "is selected"
-msgstr ""
+msgstr "Перемещать камеру так, чтобы объект помещался в фокус при его выборке"
 
 #: /home/ruben/Projects/Cura/resources/qml/ViewPage.qml:54
 msgctxt "@action:button"
 msgid "Center camera when item is selected"
-msgstr ""
+msgstr "Центрировать камеру на выбранном объекте"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarHeader.qml:29
 msgctxt "@label:listbox"
 msgid "Print Job"
-msgstr ""
+msgstr "Задание на печать"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarHeader.qml:50
 msgctxt "@label:listbox"
 msgid "Printer:"
-msgstr ""
+msgstr "Принтер:"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarHeader.qml:107
 msgctxt "@label"
 msgid "Nozzle:"
-msgstr ""
+msgstr "Сопло:"
 
 #: /home/ruben/Projects/Cura/resources/qml/SidebarHeader.qml:171
 msgctxt "@label"
 msgid "Material:"
-msgstr ""
+msgstr "Материал:"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:72
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/AddMachine.qml:242
 msgctxt "@title"
 msgid "Check Printer"
-msgstr ""
+msgstr "Проверка принтера"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:84
 msgctxt "@label"
@@ -1091,36 +1130,38 @@ msgid ""
 "It's a good idea to do a few sanity checks on your Ultimaker. You can skip "
 "this step if you know your machine is functional"
 msgstr ""
+"Хорошей идеей будет выполнить несколько проверок вашего Ultimaker. Вы можете "
+"пропустить этот шаг, если уверены в функциональности своей машины"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:100
 msgctxt "@action:button"
 msgid "Start Printer Check"
-msgstr ""
+msgstr "Начать проверку принтера"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:116
 msgctxt "@action:button"
 msgid "Skip Printer Check"
-msgstr ""
+msgstr "Пропустить проверку принтера"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:136
 msgctxt "@label"
 msgid "Connection: "
-msgstr ""
+msgstr "Соединение: "
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:145
 msgctxt "@info:status"
 msgid "Done"
-msgstr ""
+msgstr "Выполнено"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:145
 msgctxt "@info:status"
 msgid "Incomplete"
-msgstr ""
+msgstr "Не выполнено"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:155
 msgctxt "@label"
 msgid "Min endstop X: "
-msgstr ""
+msgstr "Минимальный концевик на оси X: "
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:164
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:183
@@ -1129,7 +1170,7 @@ msgstr ""
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:368
 msgctxt "@info:status"
 msgid "Works"
-msgstr ""
+msgstr "Работает"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:164
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:183
@@ -1138,44 +1179,44 @@ msgstr ""
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:277
 msgctxt "@info:status"
 msgid "Not checked"
-msgstr ""
+msgstr "Не проверен"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:174
 msgctxt "@label"
 msgid "Min endstop Y: "
-msgstr ""
+msgstr "Минимальный концевик на оси Y: "
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:193
 msgctxt "@label"
 msgid "Min endstop Z: "
-msgstr ""
+msgstr "Минимальный концевик на оси Z: "
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:212
 msgctxt "@label"
 msgid "Nozzle temperature check: "
-msgstr ""
+msgstr "Проверка температуры сопла: "
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:236
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:292
 msgctxt "@action:button"
 msgid "Start Heating"
-msgstr ""
+msgstr "Начало нагрева"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:241
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:297
 msgctxt "@info:progress"
 msgid "Checking"
-msgstr ""
+msgstr "Проверка"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:267
 msgctxt "@label"
 msgid "bed temperature check:"
-msgstr ""
+msgstr "Проверка температуры стола:"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UltimakerCheckup.qml:324
 msgctxt "@label"
 msgid "Everything is in order! You're done with your CheckUp."
-msgstr ""
+msgstr "Всё в порядке! Проверка завершена."
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/SelectUpgradedPartsUM2.qml:48
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/SelectUpgradedParts.qml:31
@@ -1183,7 +1224,7 @@ msgstr ""
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/AddMachine.qml:236
 msgctxt "@title"
 msgid "Select Upgraded Parts"
-msgstr ""
+msgstr "Выбор обновлённых частей"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/SelectUpgradedPartsUM2.qml:59
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/SelectUpgradedParts.qml:42
@@ -1192,16 +1233,18 @@ msgid ""
 "To assist you in having better default settings for your Ultimaker. Cura "
 "would like to know which upgrades you have in your machine:"
 msgstr ""
+"Для того, чтобы установить лучшие настройки по умолчанию для вашего "
+"Ultimaker, Cura должна знать какие изменения вы внесли в свой принтер:"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/SelectUpgradedPartsUM2.qml:74
 msgctxt "@option:check"
 msgid "Olsson Block"
-msgstr ""
+msgstr "Блок Олссона"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/Bedleveling.qml:46
 msgctxt "@title"
 msgid "Bed Leveling"
-msgstr ""
+msgstr "Выравнивание стола"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/Bedleveling.qml:58
 msgctxt "@label"
@@ -1210,6 +1253,9 @@ msgid ""
 "buildplate. When you click 'Move to Next Position' the nozzle will move to "
 "the different positions that can be adjusted."
 msgstr ""
+"Сейчас вы можете отрегулировать ваш стол, чтобы быть уверенным в качестве "
+"последующей печати. При нажатии на кнопку «Перейти к следующей позиции» "
+"сопло перейдёт на другую позиции, которую можно будет отрегулировать."
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/Bedleveling.qml:67
 msgctxt "@label"
@@ -1218,36 +1264,39 @@ msgid ""
 "print bed height. The print bed height is right when the paper is slightly "
 "gripped by the tip of the nozzle."
 msgstr ""
+"Для каждой позиции, вставьте кусок бумаги под сопло и отрегулируйте высоту "
+"стола. Когда носик сопла немножко прижимает бумагу к столу, значит вы "
+"выставили правильную высоту стола."
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/Bedleveling.qml:82
 msgctxt "@action:button"
 msgid "Move to Next Position"
-msgstr ""
+msgstr "Перейти к следующей позиции"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/Bedleveling.qml:122
 msgctxt "@action:button"
 msgid "Skip Bedleveling"
-msgstr ""
+msgstr "Пропустить выравнивание стола"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/Bedleveling.qml:147
 msgctxt "@label"
 msgid "Everything is in order! You're done with bedleveling."
-msgstr ""
+msgstr "Всё в порядке! Вы завершили выравнивание стола."
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/SelectUpgradedParts.qml:57
 msgctxt "@option:check"
 msgid "Extruder driver upgrades"
-msgstr ""
+msgstr "Обновления экструдера"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/SelectUpgradedParts.qml:63
 msgctxt "@option:check"
 msgid "Heated printer bed"
-msgstr ""
+msgstr "Нагреваемый стол"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/SelectUpgradedParts.qml:74
 msgctxt "@option:check"
 msgid "Heated printer bed (self built)"
-msgstr ""
+msgstr "Нагреваемый стол (самодельный)"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/SelectUpgradedParts.qml:90
 msgctxt "@label"
@@ -1257,12 +1306,16 @@ msgid ""
 "improve reliability. This upgrade can be bought from the Ultimaker webshop "
 "or found on thingiverse as thing:26094"
 msgstr ""
+"Если вы купили ваш Ultimaker после октября 2012 года, то у вас есть "
+"обновление экструдера. Если у вас нет этого обновления, оно крайне "
+"рекомендуется. Это обновление можно купить на сайте Ultimaker или найти на "
+"Thingiverse (thing:26094)"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UpgradeFirmware.qml:22
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/AddMachine.qml:239
 msgctxt "@title"
 msgid "Upgrade Firmware"
-msgstr ""
+msgstr "Обновление прошивки"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UpgradeFirmware.qml:33
 msgctxt "@label"
@@ -1271,6 +1324,9 @@ msgid ""
 "firmware controls the step motors, regulates the temperature and ultimately "
 "makes your printer work."
 msgstr ""
+"Прошивка является программным обеспечением, которое работает на плате вашего "
+"3D принтера. Прошивка управляет шаговыми моторами, регулирует температуру и, "
+"в конечном счёте, обеспечивает работу вашего принтера."
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UpgradeFirmware.qml:43
 msgctxt "@label"
@@ -1278,6 +1334,8 @@ msgid ""
 "The firmware shipping with new Ultimakers works, but upgrades have been made "
 "to make better prints, and make calibration easier."
 msgstr ""
+"Прошивка, поставляемая с новыми Ultimaker, работает, но обновления сделаны "
+"для улучшения печати и упрощают калибровку."
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UpgradeFirmware.qml:53
 msgctxt "@label"
@@ -1285,21 +1343,23 @@ msgid ""
 "Cura requires these new features and thus your firmware will most likely "
 "need to be upgraded. You can do so now."
 msgstr ""
+"Cura требует эти новые возможности и соответственно, ваша прошивка также "
+"может нуждаться в обновлении. Вы можете сделать это прямо сейчас."
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UpgradeFirmware.qml:64
 msgctxt "@action:button"
 msgid "Upgrade to Marlin Firmware"
-msgstr ""
+msgstr "Обновиться на прошивку Marlin"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/UpgradeFirmware.qml:73
 msgctxt "@action:button"
 msgid "Skip Upgrade"
-msgstr ""
+msgstr "Пропусть апгрейд"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/AddMachine.qml:72
 msgctxt "@label"
 msgid "Please select the type of printer:"
-msgstr ""
+msgstr "Укажите тип вашего принтера:"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/AddMachine.qml:198
 msgctxt "@label"
@@ -1307,13 +1367,15 @@ msgid ""
 "This printer name has already been used. Please choose a different printer "
 "name."
 msgstr ""
+"Данное имя принтера уже используется. Пожалуйста, выберите другое имя для "
+"принтера."
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/AddMachine.qml:208
 msgctxt "@label:textbox"
 msgid "Printer Name:"
-msgstr ""
+msgstr "Имя принтера:"
 
 #: /home/ruben/Projects/Cura/resources/qml/WizardPages/AddMachine.qml:245
 msgctxt "@title"
 msgid "Bed Levelling"
-msgstr ""
+msgstr "Выравнивание стола"

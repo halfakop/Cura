@@ -947,7 +947,7 @@ msgstr "Beeld"
 msgctxt "@info:tooltip"
 msgid ""
 "Highlight unsupported areas of the model in red. Without support these areas "
-"will nog print properly."
+"will not print properly."
 msgstr "Markeer delen van het model met onvoldoende ondersteuning in rood. Zonder steun worden deze delen niet correct geprint."
 
 #: /home/tamara/2.1/Cura/resources/qml/ViewPage.qml:42
@@ -1080,7 +1080,7 @@ msgstr "Cura wil graag weten welke onderdelen van de Ultimaker u hebt aangepast,
 
 #: /home/tamara/2.1/Cura/resources/qml/WizardPages/SelectUpgradedParts.qml:57
 msgctxt "@option:check"
-msgid "Extruder driver ugrades"
+msgid "Extruder driver upgrades"
 msgstr "Verbeterde extruderaandrijving"
 
 #: /home/tamara/2.1/Cura/resources/qml/WizardPages/SelectUpgradedParts.qml:63

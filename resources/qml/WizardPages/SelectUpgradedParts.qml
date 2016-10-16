@@ -54,7 +54,7 @@ Item
         CheckBox
         {
             id: extruderCheckBox
-            text: catalog.i18nc("@option:check","Extruder driver ugrades")
+            text: catalog.i18nc("@option:check","Extruder driver upgrades")
             checked: true
         }
         CheckBox

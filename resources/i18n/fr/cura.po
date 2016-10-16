@@ -917,7 +917,7 @@ msgstr "Visualisation"
 
 #: /home/tamara/2.1/Cura/resources/qml/ViewPage.qml:33
 msgctxt "@info:tooltip"
-msgid "Highlight unsupported areas of the model in red. Without support these areas will nog print properly."
+msgid "Highlight unsupported areas of the model in red. Without support these areas will not print properly."
 msgstr "Surligne les parties non supportées du modèle en rouge. Sans ajouter de support, ces zones ne s'imprimeront pas correctement."
 
 #: /home/tamara/2.1/Cura/resources/qml/ViewPage.qml:42
@@ -1034,7 +1034,7 @@ msgstr "Afin de vous aider à créer de meilleurs réglages par défaut pour vot
 
 #: /home/tamara/2.1/Cura/resources/qml/WizardPages/SelectUpgradedParts.qml:57
 msgctxt "@option:check"
-msgid "Extruder driver ugrades"
+msgid "Extruder driver upgrades"
 msgstr "Améliorations de l'entrainement de l'extrudeuse"
 
 #: /home/tamara/2.1/Cura/resources/qml/WizardPages/SelectUpgradedParts.qml:63
