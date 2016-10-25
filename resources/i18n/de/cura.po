@@ -2629,3 +2629,5 @@ msgstr "Die Druckerkonfiguration in Cura laden"
 msgctxt "@action:button"
 msgid "Activate Configuration"
 msgstr "Konfiguration aktivieren"
+msgid "Saved to Removable Drive {0} as {1}"
+

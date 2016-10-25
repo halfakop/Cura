@@ -3,654 +3,626 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-25 20:14+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2016-10-25 20:16+0300\n"
+"Last-Translator: Ruslan Popov <ruslan.popov@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: /Users/rad/devel/reprap/cura/cura/BuildVolume.py:80
 msgctxt "@info:status"
-msgid ""
-"The build volume height has been reduced due to the value of the \"Print "
-"Sequence\" setting to prevent the gantry from colliding with printed models."
-msgstr ""
+msgid "The build volume height has been reduced due to the value of the \"Print Sequence\" setting to prevent the gantry from colliding with printed models."
+msgstr "Высота печатаемого объёма была уменьшена до значения параметра \"Последовательность печати\", чтобы предотвратить касание портала за напечатанные детали."
 
 #: /Users/rad/devel/reprap/cura/cura/CrashHandler.py:42
 msgctxt "@title:window"
 msgid "Oops!"
-msgstr ""
+msgstr "Ой!"
 
 #: /Users/rad/devel/reprap/cura/cura/CrashHandler.py:48
 msgctxt "@label"
-msgid ""
-"<p>A fatal exception has occurred that we could not recover from!</"
-"p><p>Please use the information below to post a bug report at <a href="
-"\"http://github.com/Ultimaker/Cura/issues\">http://github.com/Ultimaker/Cura/"
-"issues</a></p>"
-msgstr ""
+msgid "<p>A fatal exception has occurred that we could not recover from!</p><p>Please use the information below to post a bug report at <a href=\"http://github.com/Ultimaker/Cura/issues\">http://github.com/Ultimaker/Cura/issues</a></p>"
+msgstr "<p>Выскочило необработанное исключение и мы не смогли его обработать!</p><p>Пожалуйста, используйте информацию ниже для создания отчёта об ошибке на <a href=\"http://github.com/Ultimaker/Cura/issues\">http://github.com/Ultimaker/Cura/issues</a></p>"
 
 #: /Users/rad/devel/reprap/cura/cura/CrashHandler.py:68
 msgctxt "@action:button"
 msgid "Open Web Page"
-msgstr ""
+msgstr "Открыть веб страницу"
 
 #: /Users/rad/devel/reprap/cura/cura/CuraApplication.py:212
 msgctxt "@info:progress"
 msgid "Loading machines..."
-msgstr ""
+msgstr "Загрузка принтеров..."
 
 #: /Users/rad/devel/reprap/cura/cura/CuraApplication.py:449
 msgctxt "@info:progress"
 msgid "Setting up scene..."
-msgstr ""
+msgstr "Настройка сцены..."
 
 #: /Users/rad/devel/reprap/cura/cura/CuraApplication.py:483
 msgctxt "@info:progress"
 msgid "Loading interface..."
-msgstr ""
+msgstr "Загрузка интерфейса..."
 
 #: /Users/rad/devel/reprap/cura/cura/CuraApplication.py:603
 #, python-format
 msgctxt "@info"
 msgid "%(width).1f x %(depth).1f x %(height).1f mm"
-msgstr ""
+msgstr "%(width).1f x %(depth).1f x %(height).1f мм"
 
 #: /Users/rad/devel/reprap/cura/cura/PrinterOutputDevice.py:298
 msgctxt "@item:material"
 msgid "No material loaded"
-msgstr ""
+msgstr "Материал не загружен"
 
 #: /Users/rad/devel/reprap/cura/cura/PrinterOutputDevice.py:305
 msgctxt "@item:material"
 msgid "Unknown material"
-msgstr ""
+msgstr "Неизвестный материал"
 
 #: /Users/rad/devel/reprap/cura/cura/Settings/ContainerManager.py:343
 #: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:82
 msgctxt "@title:window"
 msgid "File Already Exists"
-msgstr ""
+msgstr "Файл уже существует"
 
 #: /Users/rad/devel/reprap/cura/cura/Settings/ContainerManager.py:344
 #: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:83
 #, python-brace-format
 msgctxt "@label"
-msgid ""
-"The file <filename>{0}</filename> already exists. Are you sure you want to "
-"overwrite it?"
-msgstr ""
+msgid "The file <filename>{0}</filename> already exists. Are you sure you want to overwrite it?"
+msgstr "Файл <filename>{0}</filename> уже существует. Вы желаете его перезаписать?"
 
 #: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:113
 #, python-brace-format
 msgctxt "@info:status"
-msgid ""
-"Failed to export profile to <filename>{0}</filename>: <message>{1}</message>"
-msgstr ""
+msgid "Failed to export profile to <filename>{0}</filename>: <message>{1}</message>"
+msgstr "Невозможно экспортировать профиль в <filename>{0}</filename>: <message>{1}</message>"
 
 #: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:118
 #, python-brace-format
 msgctxt "@info:status"
-msgid ""
-"Failed to export profile to <filename>{0}</filename>: Writer plugin reported "
-"failure."
-msgstr ""
+msgid "Failed to export profile to <filename>{0}</filename>: Writer plugin reported failure."
+msgstr "Невозможно экспортировать профиль в <filename>{0}</filename>: Плагин записи уведомил об ошибке."
 
 #: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:121
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Exported profile to <filename>{0}</filename>"
-msgstr ""
+msgstr "Экспортирование профиля в <filename>{0}</filename>"
 
 #: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:147
 #: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:169
 #, python-brace-format
 msgctxt "@info:status"
-msgid ""
-"Failed to import profile from <filename>{0}</filename>: <message>{1}</"
-"message>"
-msgstr ""
+msgid "Failed to import profile from <filename>{0}</filename>: <message>{1}</message>"
+msgstr "Невозможно импортировать профиль из <filename>{0}</filename>: <message>{1}</message>"
 
 #: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:176
 #: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:210
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Successfully imported profile {0}"
-msgstr ""
+msgstr "Успешно импортирован профиль {0}"
 
 #: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:213
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Profile {0} has an unknown file type."
-msgstr ""
+msgstr "Профиль {0} имеет неизвестный тип файла."
 
 #: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:219
 msgctxt "@label"
 msgid "Custom profile"
-msgstr ""
+msgstr "Собственный профиль"
 
 #: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:77
 #: /Users/rad/devel/reprap/cura/plugins/CuraEngineBackend/CuraEngineBackend.py:233
 msgctxt "@info:status"
-msgid ""
-"The selected material is incompatible with the selected machine or "
-"configuration."
-msgstr ""
+msgid "The selected material is incompatible with the selected machine or configuration."
+msgstr "Выбранный материал несовместим с указанным принтером или конфигурацией."
 
 #: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:866
 msgctxt "@label"
 msgid "You made changes to the following setting(s):"
-msgstr ""
+msgstr "Вы сделали изменения следующих настроек:"
 
 #: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:881
 msgctxt "@window:title"
 msgid "Switched profiles"
-msgstr ""
+msgstr "Переключены профили"
 
 #: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:883
 msgctxt "@label"
 msgid "Do you want to transfer your changed settings to this profile?"
-msgstr ""
+msgstr "Вы желаете перенести свои изменения параметров в этот профиль?"
 
 #: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:885
 msgctxt "@label"
-msgid ""
-"If you transfer your settings they will override settings in the profile."
-msgstr ""
+msgid "If you transfer your settings they will override settings in the profile."
+msgstr "Если вы перенесёте свои параметры, они перезапишут настройки профиля."
 
 #: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:975
 msgctxt "@label"
 msgid "Nozzle"
-msgstr ""
+msgstr "Сопло"
 
 #: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:1175
 msgctxt "@info:status"
-msgid ""
-"Unable to find a quality profile for this combination. Default settings will "
-"be used instead."
-msgstr ""
+msgid "Unable to find a quality profile for this combination. Default settings will be used instead."
+msgstr "Невозможно найти профиль качества для этой комбинации. Будут использованы параметры по умолчанию."
 
 #: /Users/rad/devel/reprap/cura/plugins/3MFReader/__init__.py:12
 msgctxt "@label"
 msgid "3MF Reader"
-msgstr ""
+msgstr "Чтение 3MF"
 
 #: /Users/rad/devel/reprap/cura/plugins/3MFReader/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides support for reading 3MF files."
-msgstr ""
+msgstr "Предоставляет поддержку для чтения 3MF файлов."
 
 #: /Users/rad/devel/reprap/cura/plugins/3MFReader/__init__.py:21
 msgctxt "@item:inlistbox"
 msgid "3MF File"
-msgstr ""
+msgstr "Файл 3MF"
 
 #: /Users/rad/devel/reprap/cura/plugins/AutoSave/__init__.py:12
 msgctxt "@label"
 msgid "Auto Save"
-msgstr ""
+msgstr "Автосохранение"
 
 #: /Users/rad/devel/reprap/cura/plugins/AutoSave/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Automatically saves Preferences, Machines and Profiles after changes."
-msgstr ""
+msgstr "Автоматически сохраняет настройки, машины и профили после внесения изменений."
 
 #: /Users/rad/devel/reprap/cura/plugins/ChangeLogPlugin/__init__.py:12
 #: /Users/rad/devel/reprap/cura/plugins/ChangeLogPlugin/ChangeLog.qml:18
 msgctxt "@label"
 msgid "Changelog"
-msgstr ""
+msgstr "Журнал изменений"
 
 #: /Users/rad/devel/reprap/cura/plugins/ChangeLogPlugin/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Shows changes since latest checked version."
-msgstr ""
+msgstr "Показывает изменения со времени последней отмеченной версии."
 
 #: /Users/rad/devel/reprap/cura/plugins/ChangeLogPlugin/ChangeLog.py:35
 msgctxt "@item:inmenu"
 msgid "Show Changelog"
-msgstr ""
+msgstr "Показать журнал изменений"
 
 #: /Users/rad/devel/reprap/cura/plugins/CuraEngineBackend/__init__.py:13
 msgctxt "@label"
 msgid "CuraEngine Backend"
-msgstr ""
+msgstr "Движок CuraEngine"
 
 #: /Users/rad/devel/reprap/cura/plugins/CuraEngineBackend/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides the link to the CuraEngine slicing backend."
-msgstr ""
+msgstr "Предоставляет связь к движку CuraEngine."
 
 #: /Users/rad/devel/reprap/cura/plugins/CuraEngineBackend/CuraEngineBackend.py:242
 msgctxt "@info:status"
-msgid ""
-"Unable to slice with the current settings. Please check your settings for "
-"errors."
-msgstr ""
+msgid "Unable to slice with the current settings. Please check your settings for errors."
+msgstr "Невозможно нарезать модель при текущих параметрах. Пожалуйста, проверьте значения своих параметров на присутствие ошибок."
 
 #: /Users/rad/devel/reprap/cura/plugins/CuraEngineBackend/CuraEngineBackend.py:251
 msgctxt "@info:status"
-msgid ""
-"Nothing to slice because none of the models fit the build volume. Please "
-"scale or rotate models to fit."
-msgstr ""
+msgid "Nothing to slice because none of the models fit the build volume. Please scale or rotate models to fit."
+msgstr "Нечего нарезать, так как ни одна модель не попадает в объём принтера. Пожалуйста, отмасштабируйте или поверните модель."
 
 #: /Users/rad/devel/reprap/cura/plugins/CuraEngineBackend/ProcessSlicedLayersJob.py:47
 #: /Users/rad/devel/reprap/cura/plugins/CuraEngineBackend/ProcessSlicedLayersJob.py:188
 msgctxt "@info:status"
 msgid "Processing Layers"
-msgstr ""
+msgstr "Обработка слоёв"
 
 #: /Users/rad/devel/reprap/cura/plugins/CuraProfileReader/__init__.py:12
 msgctxt "@label"
 msgid "Cura Profile Reader"
-msgstr ""
+msgstr "Чтение профиля  Cura"
 
 #: /Users/rad/devel/reprap/cura/plugins/CuraProfileReader/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides support for importing Cura profiles."
-msgstr ""
+msgstr "Предоставляет поддержку для импорта профилей Cura."
 
 #: /Users/rad/devel/reprap/cura/plugins/CuraProfileReader/__init__.py:21
 #: /Users/rad/devel/reprap/cura/plugins/CuraProfileWriter/__init__.py:21
 msgctxt "@item:inlistbox"
 msgid "Cura Profile"
-msgstr ""
+msgstr "Профиль Cura"
 
 #: /Users/rad/devel/reprap/cura/plugins/CuraProfileWriter/__init__.py:12
 msgctxt "@label"
 msgid "Cura Profile Writer"
-msgstr ""
+msgstr "Запись профиля Cura"
 
 #: /Users/rad/devel/reprap/cura/plugins/CuraProfileWriter/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides support for exporting Cura profiles."
-msgstr ""
+msgstr "Предоставляет поддержку для экспорта профилей Cura."
 
 #: /Users/rad/devel/reprap/cura/plugins/GCodeProfileReader/__init__.py:12
 msgctxt "@label"
 msgid "GCode Profile Reader"
-msgstr ""
+msgstr "Чтение профиля из GCode"
 
 #: /Users/rad/devel/reprap/cura/plugins/GCodeProfileReader/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides support for importing profiles from g-code files."
-msgstr ""
+msgstr "Предоставляет поддержку для импортирования профилей из GCode файлов."
 
 #: /Users/rad/devel/reprap/cura/plugins/GCodeProfileReader/__init__.py:21
 msgctxt "@item:inlistbox"
 msgid "G-code File"
-msgstr ""
+msgstr "Файл G-code"
 
 #: /Users/rad/devel/reprap/cura/plugins/GCodeWriter/__init__.py:12
 msgctxt "@label"
 msgid "GCode Writer"
-msgstr ""
+msgstr "Запись GCode"
 
 #: /Users/rad/devel/reprap/cura/plugins/GCodeWriter/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Writes GCode to a file."
-msgstr ""
+msgstr "Записывает GCode в файл."
 
 #: /Users/rad/devel/reprap/cura/plugins/GCodeWriter/__init__.py:22
 msgctxt "@item:inlistbox"
 msgid "GCode File"
-msgstr ""
+msgstr "Файл GCode"
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/__init__.py:12
 msgctxt "@label"
 msgid "Image Reader"
-msgstr ""
+msgstr "Чтение изображений"
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Enables ability to generate printable geometry from 2D image files."
-msgstr ""
+msgstr "Обеспечивает возможность генерировать печатаемую геометрию из файлов двухмерных изображений."
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/__init__.py:21
 msgctxt "@item:inlistbox"
 msgid "JPG Image"
-msgstr ""
+msgstr "JPG изображение"
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/__init__.py:25
 msgctxt "@item:inlistbox"
 msgid "JPEG Image"
-msgstr ""
+msgstr "JPEG изображение"
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/__init__.py:29
 msgctxt "@item:inlistbox"
 msgid "PNG Image"
-msgstr ""
+msgstr "PNG изображение"
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/__init__.py:33
 msgctxt "@item:inlistbox"
 msgid "BMP Image"
-msgstr ""
+msgstr "BMP изображение"
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/__init__.py:37
 msgctxt "@item:inlistbox"
 msgid "GIF Image"
-msgstr ""
+msgstr "GIF изображение"
 
 #: /Users/rad/devel/reprap/cura/plugins/LayerView/__init__.py:13
 msgctxt "@label"
 msgid "Layer View"
-msgstr ""
+msgstr "Просмотр слоёв"
 
 #: /Users/rad/devel/reprap/cura/plugins/LayerView/__init__.py:16
 msgctxt "@info:whatsthis"
 msgid "Provides the Layer view."
-msgstr ""
+msgstr "Предоставляет послойный просмотр."
 
 #: /Users/rad/devel/reprap/cura/plugins/LayerView/__init__.py:20
 msgctxt "@item:inlistbox"
 msgid "Layers"
-msgstr ""
+msgstr "Слои"
 
 #: /Users/rad/devel/reprap/cura/plugins/LayerView/LayerView.py:70
 msgctxt "@info:status"
 msgid "Cura does not accurately display layers when Wire Printing is enabled"
-msgstr ""
+msgstr "Cura не аккуратно отображает слоя при использовании печати через провод"
 
 #: /Users/rad/devel/reprap/cura/plugins/LegacyProfileReader/__init__.py:12
 msgctxt "@label"
 msgid "Legacy Cura Profile Reader"
-msgstr ""
+msgstr "Чтение устаревших профилей Cura"
 
 #: /Users/rad/devel/reprap/cura/plugins/LegacyProfileReader/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides support for importing profiles from legacy Cura versions."
-msgstr ""
+msgstr "Предоставляет поддержку для импортирования профилей из устаревших версий Cura."
 
 #: /Users/rad/devel/reprap/cura/plugins/LegacyProfileReader/__init__.py:21
 msgctxt "@item:inlistbox"
 msgid "Cura 15.04 profiles"
-msgstr ""
+msgstr "Профили Cura 15.04"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/__init__.py:12
 msgctxt "@label"
 msgid "Machine Settings action"
-msgstr ""
+msgstr "Параметры машины действие"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/__init__.py:15
 msgctxt "@info:whatsthis"
-msgid ""
-"Provides a way to change machine settings (such as build volume, nozzle "
-"size, etc)"
-msgstr ""
+msgid "Provides a way to change machine settings (such as build volume, nozzle size, etc)"
+msgstr "Предоставляет возможность изменения параметров принтера (такие как рабочий объём, диаметр сопла и так далее)"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.py:19
 msgctxt "@action"
 msgid "Machine Settings"
-msgstr ""
+msgstr "Параметры принтера"
 
 #: /Users/rad/devel/reprap/cura/plugins/PerObjectSettingsTool/__init__.py:14
 msgctxt "@label"
 msgid "Per Model Settings Tool"
-msgstr ""
+msgstr "Инструмент для настройки каждой модели"
 
 #: /Users/rad/devel/reprap/cura/plugins/PerObjectSettingsTool/__init__.py:17
 msgctxt "@info:whatsthis"
 msgid "Provides the Per Model Settings."
-msgstr ""
+msgstr "Предоставляет параметры для каждой модели."
 
 #: /Users/rad/devel/reprap/cura/plugins/PerObjectSettingsTool/__init__.py:21
 msgctxt "@label"
 msgid "Per Model Settings"
-msgstr ""
+msgstr "Параметры модели"
 
 #: /Users/rad/devel/reprap/cura/plugins/PerObjectSettingsTool/__init__.py:22
 msgctxt "@info:tooltip"
 msgid "Configure Per Model Settings"
-msgstr ""
+msgstr "Правка параметров модели"
 
 #: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/__init__.py:12
 msgctxt "@label"
 msgid "Removable Drive Output Device Plugin"
-msgstr ""
+msgstr "Плагин для работы с внешним носителем"
 
 #: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/__init__.py:14
 msgctxt "@info:whatsthis"
 msgid "Provides removable drive hotplugging and writing support."
-msgstr ""
+msgstr "Предоставляет поддержку для подключения и записи на внешний носитель."
 
 #: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:23
 msgctxt "@action:button"
 msgid "Save to Removable Drive"
-msgstr ""
+msgstr "Сохранить на внешний носитель"
 
 #: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:24
 #, python-brace-format
 msgctxt "@item:inlistbox"
 msgid "Save to Removable Drive {0}"
-msgstr ""
+msgstr "Сохранить на внешний носитель {0}"
 
 #: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:80
 #, python-brace-format
 msgctxt "@info:progress"
 msgid "Saving to Removable Drive <filename>{0}</filename>"
-msgstr ""
+msgstr "Сохранение на внешний носитель <filename>{0}</filename>"
 
 #: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:90
 #: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:93
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Could not save to <filename>{0}</filename>: <message>{1}</message>"
-msgstr ""
+msgstr "Не могу сохранить <filename>{0}</filename>: <message>{1}</message>"
 
 #: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:129
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Saved to Removable Drive {0} as {1}"
-msgstr ""
+msgstr "Сохранено на внешний носитель {0} как {1}"
 
 #: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:130
 msgctxt "@action:button"
 msgid "Eject"
-msgstr ""
+msgstr "Извлечь"
 
 #: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:130
 #, python-brace-format
 msgctxt "@action"
 msgid "Eject removable device {0}"
-msgstr ""
+msgstr "Извлекает внешний носитель {0}"
 
 #: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:135
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Could not save to removable drive {0}: {1}"
-msgstr ""
+msgstr "Невозможно сохранить на внешний носитель {0}: {1}"
 
 #: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:145
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Ejected {0}. You can now safely remove the drive."
-msgstr ""
+msgstr "Извлечено {0}. Вы можете теперь безопасно извлечь носитель."
 
 #: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:147
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Failed to eject {0}. Another program may be using the drive."
-msgstr ""
+msgstr "Невозможно извлечь {0}. Другая программа может использовать это устройство?"
 
 #: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/WindowsRemovableDrivePlugin.py:69
 msgctxt "@item:intext"
 msgid "Removable Drive"
-msgstr ""
+msgstr "Внешний носитель"
 
 #: /Users/rad/devel/reprap/cura/plugins/SliceInfoPlugin/__init__.py:10
 msgctxt "@label"
 msgid "Slice info"
-msgstr ""
+msgstr "Информация о нарезке модели"
 
 #: /Users/rad/devel/reprap/cura/plugins/SliceInfoPlugin/__init__.py:13
 msgctxt "@info:whatsthis"
 msgid "Submits anonymous slice info. Can be disabled through preferences."
-msgstr ""
+msgstr "Отправляет анонимную информацию о нарезке моделей. Может быть отключено через настройки."
 
 #: /Users/rad/devel/reprap/cura/plugins/SliceInfoPlugin/SliceInfo.py:74
 msgctxt "@info"
-msgid ""
-"Cura collects anonymised slicing statistics. You can disable this in "
-"preferences"
-msgstr ""
+msgid "Cura collects anonymised slicing statistics. You can disable this in preferences"
+msgstr "Cura собирает анонимную статистику о нарезке модели. Вы можете отключить это в настройках."
 
 #: /Users/rad/devel/reprap/cura/plugins/SliceInfoPlugin/SliceInfo.py:75
 msgctxt "@action:button"
 msgid "Dismiss"
-msgstr ""
+msgstr "Отменить"
 
 #: /Users/rad/devel/reprap/cura/plugins/SolidView/__init__.py:12
 msgctxt "@label"
 msgid "Solid View"
-msgstr ""
+msgstr "Просмотр модели"
 
 #: /Users/rad/devel/reprap/cura/plugins/SolidView/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides a normal solid mesh view."
-msgstr ""
+msgstr "Предоставляет просмотр твёрдого тела."
 
 #: /Users/rad/devel/reprap/cura/plugins/SolidView/__init__.py:19
 msgctxt "@item:inmenu"
 msgid "Solid"
-msgstr ""
+msgstr "Твёрдое тело"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/__init__.py:15
 msgctxt "@label"
 msgid "Ultimaker machine actions"
-msgstr ""
+msgstr "Дополнительные возможности Ultimaker"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/__init__.py:18
 msgctxt "@info:whatsthis"
-msgid ""
-"Provides machine actions for Ultimaker machines (such as bed leveling "
-"wizard, selecting upgrades, etc)"
-msgstr ""
+msgid "Provides machine actions for Ultimaker machines (such as bed leveling wizard, selecting upgrades, etc)"
+msgstr "Предоставляет дополнительные возможности для принтеров Ultimaker (такие как мастер выравнивания столы, выбора обновления и так далее)"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/BedLevelMachineAction.py:13
 msgctxt "@action"
 msgid "Level build plate"
-msgstr ""
+msgstr "Выравнивание стола"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.py:13
 msgctxt "@action"
 msgid "Checkup"
-msgstr ""
+msgstr "Проверка"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOUpgradeSelection.py:12
 msgctxt "@action"
 msgid "Select upgrades"
-msgstr ""
+msgstr "Выбор обновлённых частей"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UpgradeFirmwareMachineAction.py:10
 msgctxt "@action"
 msgid "Upgrade Firmware"
-msgstr ""
+msgstr "Обновление прошивки"
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/__init__.py:13
 msgctxt "@label"
 msgid "USB printing"
-msgstr ""
+msgstr "Печать через USB"
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/__init__.py:17
 msgctxt "@info:whatsthis"
-msgid ""
-"Accepts G-Code and sends them to a printer. Plugin can also update firmware."
-msgstr ""
+msgid "Accepts G-Code and sends them to a printer. Plugin can also update firmware."
+msgstr "Принимает G-Code и отправляет его на принтер. Плагин также может обновлять прошивку."
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/USBPrinterOutputDevice.py:27
 msgctxt "@item:inmenu"
 msgid "USB printing"
-msgstr ""
+msgstr "USB печать"
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/USBPrinterOutputDevice.py:28
 msgctxt "@action:button"
 msgid "Print via USB"
-msgstr ""
+msgstr "Печатать через USB"
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/USBPrinterOutputDevice.py:29
 msgctxt "@info:tooltip"
 msgid "Print via USB"
-msgstr ""
+msgstr "Печатать через USB"
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/USBPrinterOutputDevice.py:31
 msgctxt "@info:status"
 msgid "Connected via USB"
-msgstr ""
+msgstr "Соединение через USB"
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/USBPrinterOutputDevice.py:143
 msgctxt "@info:status"
 msgid "Unable to start a new job because the printer is busy or not connected."
-msgstr ""
+msgstr "Невозможно запустить новое задание, потому что принтер занят или не подключен."
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/USBPrinterOutputDeviceManager.py:111
 msgctxt "@info"
 msgid "Unable to update firmware because there are no printers connected."
-msgstr ""
+msgstr "Невозможно обновить прошивку, не найдены подключенные принтеры."
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/USBPrinterOutputDeviceManager.py:125
 #, python-format
 msgctxt "@info"
 msgid "Could not find firmware required for the printer at %s."
-msgstr ""
+msgstr "Не могу найти прошивку, подходящую для принтера в %s."
 
 #: /Users/rad/devel/reprap/cura/plugins/VersionUpgrade/VersionUpgrade21to22/__init__.py:14
 msgctxt "@label"
 msgid "Version Upgrade 2.1 to 2.2"
-msgstr ""
+msgstr "Обновление версии 2.1 до 2.2"
 
 #: /Users/rad/devel/reprap/cura/plugins/VersionUpgrade/VersionUpgrade21to22/__init__.py:17
 msgctxt "@info:whatsthis"
 msgid "Upgrades configurations from Cura 2.1 to Cura 2.2."
-msgstr ""
+msgstr "Обновляет настройки с Cura 2.1 до Cura 2.2."
 
 #: /Users/rad/devel/reprap/cura/plugins/X3DReader/__init__.py:11
 msgctxt "@label"
 msgid "X3D Reader"
-msgstr ""
+msgstr "Чтение X3D"
 
 #: /Users/rad/devel/reprap/cura/plugins/X3DReader/__init__.py:14
 msgctxt "@info:whatsthis"
 msgid "Provides support for reading X3D files."
-msgstr ""
+msgstr "Предоставляет поддержку для чтения X3D файлов."
 
 #: /Users/rad/devel/reprap/cura/plugins/X3DReader/__init__.py:20
 msgctxt "@item:inlistbox"
 msgid "X3D File"
-msgstr ""
+msgstr "Файл X3D"
 
 #: /Users/rad/devel/reprap/cura/plugins/XmlMaterialProfile/__init__.py:13
 msgctxt "@label"
 msgid "Material Profiles"
-msgstr ""
+msgstr "Профили материалов"
 
 #: /Users/rad/devel/reprap/cura/plugins/XmlMaterialProfile/__init__.py:16
 msgctxt "@info:whatsthis"
 msgid "Provides capabilities to read and write XML-based material profiles."
-msgstr ""
+msgstr "Предоставляет возможности по чтению и записи профилей материалов в виде XML."
 
 #: /Users/rad/devel/reprap/cura/plugins/XRayView/__init__.py:12
 msgctxt "@label"
 msgid "X-Ray View"
-msgstr ""
+msgstr "Просмотр в рентгене"
 
 #: /Users/rad/devel/reprap/cura/plugins/XRayView/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides the X-Ray view."
-msgstr ""
+msgstr "Предоставляет рентгеновский вид."
 
 #: /Users/rad/devel/reprap/cura/plugins/XRayView/__init__.py:19
 msgctxt "@item:inlistbox"
 msgid "X-Ray"
-msgstr ""
+msgstr "Рентген"
 
 #: /Users/rad/devel/reprap/cura/plugins/ChangeLogPlugin/ChangeLog.qml:37
 #: /Users/rad/devel/reprap/cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:433
@@ -660,81 +632,77 @@ msgstr ""
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MachinesPage.qml:120
 msgctxt "@action:button"
 msgid "Close"
-msgstr ""
+msgstr "Закрыть"
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:21
 msgctxt "@title:window"
 msgid "Convert Image..."
-msgstr ""
+msgstr "Преобразование изображения..."
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:35
 msgctxt "@info:tooltip"
 msgid "The maximum distance of each pixel from \"Base.\""
-msgstr ""
+msgstr "Максимальная дистанция каждого пикселя от \"Основания\"."
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:40
 msgctxt "@action:label"
 msgid "Height (mm)"
-msgstr ""
+msgstr "Высота (мм)"
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:58
 msgctxt "@info:tooltip"
 msgid "The base height from the build plate in millimeters."
-msgstr ""
+msgstr "Высота основания от стола в миллиметрах."
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:63
 msgctxt "@action:label"
 msgid "Base (mm)"
-msgstr ""
+msgstr "Основание (мм)"
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:81
 msgctxt "@info:tooltip"
 msgid "The width in millimeters on the build plate."
-msgstr ""
+msgstr "Ширина в миллиметрах на столе."
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:86
 msgctxt "@action:label"
 msgid "Width (mm)"
-msgstr ""
+msgstr "Ширина (мм)"
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:105
 msgctxt "@info:tooltip"
 msgid "The depth in millimeters on the build plate"
-msgstr ""
+msgstr "Глубина в миллиметрах на столе"
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:110
 msgctxt "@action:label"
 msgid "Depth (mm)"
-msgstr ""
+msgstr "Глубина (мм)"
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:128
 msgctxt "@info:tooltip"
-msgid ""
-"By default, white pixels represent high points on the mesh and black pixels "
-"represent low points on the mesh. Change this option to reverse the behavior "
-"such that black pixels represent high points on the mesh and white pixels "
-"represent low points on the mesh."
-msgstr ""
+msgid "By default, white pixels represent high points on the mesh and black pixels represent low points on the mesh. Change this option to reverse the behavior such that black pixels represent high points on the mesh and white pixels represent low points on the mesh."
+msgstr "По умолчанию, белые пиксели представлены высокими точками на объекте, а чёрные пиксели представлены низкими точками на объекте. Измените эту опцию для изменения данного поведения, таким образом чёрные пиксели будут представлены высокими точками, а белые - низкими."
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:141
 msgctxt "@item:inlistbox"
 msgid "Lighter is higher"
-msgstr ""
+msgstr "Светлые выше"
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:141
 msgctxt "@item:inlistbox"
 msgid "Darker is higher"
-msgstr ""
+msgstr "Тёмные выше"
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:151
 msgctxt "@info:tooltip"
 msgid "The amount of smoothing to apply to the image."
-msgstr ""
+msgstr "Величина размывания для применения к изображению."
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:156
 msgctxt "@action:label"
 msgid "Smoothing"
-msgstr ""
+msgstr "Размывание"
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:184
 msgctxt "@action:button"
@@ -744,27 +712,27 @@ msgstr ""
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:191
 msgctxt "@action:button"
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:27
 msgctxt "@title"
 msgid "Machine Settings"
-msgstr ""
+msgstr "Параметры принтера"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:38
 msgctxt "@label"
 msgid "Please enter the correct settings for your printer below:"
-msgstr ""
+msgstr "Пожалуйста, введите правильные параметры для вашего принтера:"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:63
 msgctxt "@label"
 msgid "Printer Settings"
-msgstr ""
+msgstr "Параметры принтера"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:74
 msgctxt "@label"
 msgid "X (Width)"
-msgstr ""
+msgstr "X (Ширина)"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:85
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:101
@@ -777,178 +745,170 @@ msgstr ""
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:286
 msgctxt "@label"
 msgid "mm"
-msgstr ""
+msgstr "мм"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:90
 msgctxt "@label"
 msgid "Y (Depth)"
-msgstr ""
+msgstr "Y (Глубина)"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:106
 msgctxt "@label"
 msgid "Z (Height)"
-msgstr ""
+msgstr "Z (Высота)"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:126
 msgctxt "@option:check"
 msgid "Heated Bed"
-msgstr ""
+msgstr "Нагреваемый стол"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:133
 msgctxt "@option:check"
 msgid "Machine Center is Zero"
-msgstr ""
+msgstr "Ноль в центре стола"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:145
 msgctxt "@label"
 msgid "GCode Flavor"
-msgstr ""
+msgstr "Вариант G-кода"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:176
 msgctxt "@label"
 msgid "Printhead Settings"
-msgstr ""
+msgstr "Параметры головы"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:187
 msgctxt "@label"
 msgid "X min"
-msgstr ""
+msgstr "X минимум"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:203
 msgctxt "@label"
 msgid "Y min"
-msgstr ""
+msgstr "Y минимум"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:219
 msgctxt "@label"
 msgid "X max"
-msgstr ""
+msgstr "X максимум"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:235
 msgctxt "@label"
 msgid "Y max"
-msgstr ""
+msgstr "Y максимум"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:255
 msgctxt "@label"
 msgid "Gantry height"
-msgstr ""
+msgstr "Высота портала"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:275
 msgctxt "@label"
 msgid "Nozzle size"
-msgstr ""
+msgstr "Размер сопла"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:304
 msgctxt "@label"
 msgid "Start Gcode"
-msgstr ""
+msgstr "Начало G-кода"
 
 #: /Users/rad/devel/reprap/cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:326
 msgctxt "@label"
 msgid "End Gcode"
-msgstr ""
+msgstr "Конец G-кода"
 
 #: /Users/rad/devel/reprap/cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:34
 msgctxt "@label Followed by extruder selection drop-down."
 msgid "Print model with"
-msgstr ""
+msgstr "Печатать модель с"
 
 #: /Users/rad/devel/reprap/cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:284
 msgctxt "@action:button"
 msgid "Select settings"
-msgstr ""
+msgstr "Выберите параметры"
 
 #: /Users/rad/devel/reprap/cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:324
 msgctxt "@title:window"
 msgid "Select Settings to Customize for this model"
-msgstr ""
+msgstr "Выберите параметр для изменения этой модели"
 
 #: /Users/rad/devel/reprap/cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:348
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/SettingVisibilityPage.qml:91
 msgctxt "@label:textbox"
 msgid "Filter..."
-msgstr ""
+msgstr "Фильтр..."
 
 #: /Users/rad/devel/reprap/cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:372
 msgctxt "@label:checkbox"
 msgid "Show all"
-msgstr ""
+msgstr "Показать всё"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/BedLevelMachineAction.qml:27
 msgctxt "@title"
 msgid "Build Plate Leveling"
-msgstr ""
+msgstr "Выравнивание стола"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/BedLevelMachineAction.qml:38
 msgctxt "@label"
-msgid ""
-"To make sure your prints will come out great, you can now adjust your "
-"buildplate. When you click 'Move to Next Position' the nozzle will move to "
-"the different positions that can be adjusted."
-msgstr ""
+msgid "To make sure your prints will come out great, you can now adjust your buildplate. When you click 'Move to Next Position' the nozzle will move to the different positions that can be adjusted."
+msgstr "Сейчас вы можете отрегулировать ваш стол, чтобы быть уверенным в качестве последующей печати. При нажатии на кнопку «Перейти к следующей позиции» сопло перейдёт на другую позиции, которую можно будет отрегулировать."
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/BedLevelMachineAction.qml:47
 msgctxt "@label"
-msgid ""
-"For every position; insert a piece of paper under the nozzle and adjust the "
-"print build plate height. The print build plate height is right when the "
-"paper is slightly gripped by the tip of the nozzle."
-msgstr ""
+msgid "For every position; insert a piece of paper under the nozzle and adjust the print build plate height. The print build plate height is right when the paper is slightly gripped by the tip of the nozzle."
+msgstr "Для каждой позиции, вставьте кусок бумаги под сопло и отрегулируйте высоту стола. Когда носик сопла немножко прижимает бумагу к столу, значит вы выставили правильную высоту стола."
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/BedLevelMachineAction.qml:62
 msgctxt "@action:button"
 msgid "Start Build Plate Leveling"
-msgstr ""
+msgstr "Начало выравнивания стола"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/BedLevelMachineAction.qml:74
 msgctxt "@action:button"
 msgid "Move to Next Position"
-msgstr ""
+msgstr "Перейти к следующей позиции"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:27
 msgctxt "@title"
 msgid "Check Printer"
-msgstr ""
+msgstr "Проверка принтера"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:39
 msgctxt "@label"
-msgid ""
-"It's a good idea to do a few sanity checks on your Ultimaker. You can skip "
-"this step if you know your machine is functional"
-msgstr ""
+msgid "It's a good idea to do a few sanity checks on your Ultimaker. You can skip this step if you know your machine is functional"
+msgstr "Хорошей идеей будет выполнить несколько проверок вашего Ultimaker. Вы можете пропустить этот шаг, если уверены в функциональности своей машины"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:53
 msgctxt "@action:button"
 msgid "Start Printer Check"
-msgstr ""
+msgstr "Начать проверку принтера"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:80
 msgctxt "@label"
 msgid "Connection: "
-msgstr ""
+msgstr "Соединение: "
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:89
 msgctxt "@info:status"
 msgid "Connected"
-msgstr ""
+msgstr "Подключен"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:89
 msgctxt "@info:status"
 msgid "Not connected"
-msgstr ""
+msgstr "Не подключен"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:99
 msgctxt "@label"
 msgid "Min endstop X: "
-msgstr ""
+msgstr "Минимальный концевик на оси X: "
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:109
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:130
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:151
 msgctxt "@info:status"
 msgid "Works"
-msgstr ""
+msgstr "Работает"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:109
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:130
@@ -957,326 +917,320 @@ msgstr ""
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:234
 msgctxt "@info:status"
 msgid "Not checked"
-msgstr ""
+msgstr "Не проверен"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:120
 msgctxt "@label"
 msgid "Min endstop Y: "
-msgstr ""
+msgstr "Минимальный концевик на оси Y: "
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:141
 msgctxt "@label"
 msgid "Min endstop Z: "
-msgstr ""
+msgstr "Минимальный концевик на оси Z: "
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:163
 msgctxt "@label"
 msgid "Nozzle temperature check: "
-msgstr ""
+msgstr "Проверка температуры сопла: "
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:187
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:248
 msgctxt "@action:button"
 msgid "Stop Heating"
-msgstr ""
+msgstr "Завершение нагрева"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:187
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:248
 msgctxt "@action:button"
 msgid "Start Heating"
-msgstr ""
+msgstr "Начало нагрева"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:223
 msgctxt "@label"
 msgid "Build plate temperature check:"
-msgstr ""
+msgstr "Проверка температуры стола:"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:234
 msgctxt "@info:status"
 msgid "Checked"
-msgstr ""
+msgstr "Проверена"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOCheckupMachineAction.qml:284
 msgctxt "@label"
 msgid "Everything is in order! You're done with your CheckUp."
-msgstr ""
+msgstr "Всё в порядке! Проверка завершена."
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOUpgradeSelectionMachineAction.qml:25
 msgctxt "@title"
 msgid "Select Printer Upgrades"
-msgstr ""
+msgstr "Выбор обновлённых частей"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOUpgradeSelectionMachineAction.qml:37
 msgctxt "@label"
 msgid "Please select any upgrades made to this Ultimaker Original"
-msgstr ""
+msgstr "Пожалуйста, укажите любые изменений, внесённый в оригинальный Гдешьфлук"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UMOUpgradeSelectionMachineAction.qml:45
 msgctxt "@label"
 msgid "Heated Build Plate (official kit or self-built)"
-msgstr ""
+msgstr "Нагреваемый стол (официальный набор или самодельный)"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UpgradeFirmwareMachineAction.qml:27
 msgctxt "@title"
 msgid "Upgrade Firmware"
-msgstr ""
+msgstr "Обновление прошивки"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UpgradeFirmwareMachineAction.qml:38
 msgctxt "@label"
-msgid ""
-"Firmware is the piece of software running directly on your 3D printer. This "
-"firmware controls the step motors, regulates the temperature and ultimately "
-"makes your printer work."
-msgstr ""
+msgid "Firmware is the piece of software running directly on your 3D printer. This firmware controls the step motors, regulates the temperature and ultimately makes your printer work."
+msgstr "Прошивка является программным обеспечением, которое работает на плате вашего 3D принтера. Прошивка управляет шаговыми моторами, регулирует температуру и, в конечном счёте, обеспечивает работу вашего принтера."
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UpgradeFirmwareMachineAction.qml:48
 msgctxt "@label"
-msgid ""
-"The firmware shipping with new printers works, but new versions tend to have "
-"more features and improvements."
-msgstr ""
+msgid "The firmware shipping with new printers works, but new versions tend to have more features and improvements."
+msgstr "Прошивка, поставляемая с новыми Ultimaker, работает, но обновления предоставляют больше возможностей и усовершенствований."
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UpgradeFirmwareMachineAction.qml:62
 msgctxt "@action:button"
 msgid "Automatically upgrade Firmware"
-msgstr ""
+msgstr "Автоматическое обновление прошивки"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UpgradeFirmwareMachineAction.qml:72
 msgctxt "@action:button"
 msgid "Upload custom Firmware"
-msgstr ""
+msgstr "Залить собственную прошивку"
 
 #: /Users/rad/devel/reprap/cura/plugins/UltimakerMachineActions/UpgradeFirmwareMachineAction.qml:83
 msgctxt "@title:window"
 msgid "Select custom firmware"
-msgstr ""
+msgstr "Выбрать собственную прошивку"
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:20
 msgctxt "@title:window"
 msgid "Firmware Update"
-msgstr ""
+msgstr "Обновление прошивки"
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:40
 msgctxt "@label"
 msgid "Firmware update completed."
-msgstr ""
+msgstr "Обновление прошивки завершено."
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:45
 msgctxt "@label"
 msgid "Starting firmware update, this may take a while."
-msgstr ""
+msgstr "Запуск обновления прошивки, это может занять некоторое время."
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:50
 msgctxt "@label"
 msgid "Updating firmware."
-msgstr ""
+msgstr "Обновление прошивки."
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:59
 msgctxt "@label"
 msgid "Firmware update failed due to an unknown error."
-msgstr ""
+msgstr "Обновление прошивки не удалось из-за неизвестной ошибки."
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:62
 msgctxt "@label"
 msgid "Firmware update failed due to an communication error."
-msgstr ""
+msgstr "Обновление прошивки не удалось из-за ошибки связи."
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:65
 msgctxt "@label"
 msgid "Firmware update failed due to an input/output error."
-msgstr ""
+msgstr "Обновление прошивки не удалось из-за ошибки ввода-вывода."
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:68
 msgctxt "@label"
 msgid "Firmware update failed due to missing firmware."
-msgstr ""
+msgstr "Обновление прошивки не удалось из-за её отстутствия."
 
 #: /Users/rad/devel/reprap/cura/plugins/USBPrinting/FirmwareUpdateWindow.qml:71
 msgctxt "@label"
 msgid "Unknown error code: %1"
-msgstr ""
+msgstr "Неизвестный код ошибки: %1"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/AboutDialog.qml:15
 msgctxt "@title:window"
 msgid "About Cura"
-msgstr ""
+msgstr "О Cura"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/AboutDialog.qml:57
 msgctxt "@label"
 msgid "End-to-end solution for fused filament 3D printing."
-msgstr ""
+msgstr "Полное решение для 3D печати филаментом."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/AboutDialog.qml:69
 msgctxt "@info:credit"
-msgid ""
-"Cura has been developed by Ultimaker B.V. in cooperation with the community."
-msgstr ""
+msgid "Cura has been developed by Ultimaker B.V. in cooperation with the community."
+msgstr "Cura была разработана компанией Ultimaker B.V. в кооперации с сообществом."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:62
 msgctxt "@action:inmenu"
 msgid "Toggle Fu&ll Screen"
-msgstr ""
+msgstr "Полный экран"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:69
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Undo"
-msgstr ""
+msgstr "Отмена"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:79
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Redo"
-msgstr ""
+msgstr "Возврат"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:89
 msgctxt "@action:inmenu menubar:file"
 msgid "&Quit"
-msgstr ""
+msgstr "Выход"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:97
 msgctxt "@action:inmenu"
 msgid "Configure Cura..."
-msgstr ""
+msgstr "Настроить Cura…"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:104
 msgctxt "@action:inmenu menubar:printer"
 msgid "&Add Printer..."
-msgstr ""
+msgstr "Добавить принтер..."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:110
 msgctxt "@action:inmenu menubar:printer"
 msgid "Manage Pr&inters..."
-msgstr ""
+msgstr "Управление принтерами..."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:117
 msgctxt "@action:inmenu"
 msgid "Manage Materials..."
-msgstr ""
+msgstr "Управление материалами…"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:125
 msgctxt "@action:inmenu menubar:profile"
 msgid "&Update profile with current settings"
-msgstr ""
+msgstr "Записать текущие параметры в профиль"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:133
 msgctxt "@action:inmenu menubar:profile"
 msgid "&Discard current settings"
-msgstr ""
+msgstr "Сбросить текущие параметры"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:141
 msgctxt "@action:inmenu menubar:profile"
 msgid "&Create profile from current settings..."
-msgstr ""
+msgstr "Создать профиль из текущих параметров…"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:147
 msgctxt "@action:inmenu menubar:profile"
 msgid "Manage Profiles..."
-msgstr ""
+msgstr "Управление профилями..."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:154
 msgctxt "@action:inmenu menubar:help"
 msgid "Show Online &Documentation"
-msgstr ""
+msgstr "Показать онлайн документацию"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:162
 msgctxt "@action:inmenu menubar:help"
 msgid "Report a &Bug"
-msgstr ""
+msgstr "Отправить отчёт об ошибке"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:170
 msgctxt "@action:inmenu menubar:help"
 msgid "&About..."
-msgstr ""
+msgstr "О Cura"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:177
 msgctxt "@action:inmenu menubar:edit"
 msgid "Delete &Selection"
-msgstr ""
+msgstr "Удалить выделенное"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:187
 msgctxt "@action:inmenu"
 msgid "Delete Model"
-msgstr ""
+msgstr "Удалить модель"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:195
 msgctxt "@action:inmenu"
 msgid "Ce&nter Model on Platform"
-msgstr ""
+msgstr "Поместить модель по центру"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:201
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Group Models"
-msgstr ""
+msgstr "Сгруппировать модели"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:211
 msgctxt "@action:inmenu menubar:edit"
 msgid "Ungroup Models"
-msgstr ""
+msgstr "Разгруппировать модели"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:221
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Merge Models"
-msgstr ""
+msgstr "Объединить модели"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:231
 msgctxt "@action:inmenu"
 msgid "&Duplicate Model"
-msgstr ""
+msgstr "Дублировать модель"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:238
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Select All Models"
-msgstr ""
+msgstr "Выбрать все модели"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:248
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Clear Build Plate"
-msgstr ""
+msgstr "Очистить стол"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:258
 msgctxt "@action:inmenu menubar:file"
 msgid "Re&load All Models"
-msgstr ""
+msgstr "Перезагрузить все модели"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:266
 msgctxt "@action:inmenu menubar:edit"
 msgid "Reset All Model Positions"
-msgstr ""
+msgstr "Сбросить позиции всех моделей"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:273
 msgctxt "@action:inmenu menubar:edit"
 msgid "Reset All Model &Transformations"
-msgstr ""
+msgstr "Сбросить преобразования всех моделей"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:280
 msgctxt "@action:inmenu menubar:file"
 msgid "&Open File..."
-msgstr ""
+msgstr "Открыть файл..."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:288
 msgctxt "@action:inmenu menubar:help"
 msgid "Show Engine &Log..."
-msgstr ""
+msgstr "Показать журнал движка..."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:296
 msgctxt "@action:inmenu menubar:help"
 msgid "Show Configuration Folder"
-msgstr ""
+msgstr "Показать конфигурационный каталог"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Actions.qml:303
 msgctxt "@action:menu"
 msgid "Configure setting visibility..."
-msgstr ""
+msgstr "Видимость параметров…"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/AddMachineDialog.qml:18
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:718
 msgctxt "@title:window"
 msgid "Add Printer"
-msgstr ""
+msgstr "Добавление принтера"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/AddMachineDialog.qml:183
 msgctxt "@action:button"
 msgid "Add Printer"
-msgstr ""
+msgstr "Добавить принтер"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:19
 msgctxt "@title:window"
@@ -1286,796 +1240,759 @@ msgstr ""
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:68
 msgctxt "@title:menu menubar:toplevel"
 msgid "&File"
-msgstr ""
+msgstr "Файл"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:80
 msgctxt "@action:inmenu menubar:file"
 msgid "&Save Selection to File"
-msgstr ""
+msgstr "Сохранить выделенное в файл"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:88
 msgctxt "@title:menu menubar:file"
 msgid "Save &All"
-msgstr ""
+msgstr "Сохранить всё"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:115
 msgctxt "@title:menu menubar:toplevel"
 msgid "&Edit"
-msgstr ""
+msgstr "Правка"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:131
 msgctxt "@title:menu"
 msgid "&View"
-msgstr ""
+msgstr "Вид"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:136
 msgctxt "@title:menu"
 msgid "&Settings"
-msgstr ""
+msgstr "Параметры"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:138
 msgctxt "@title:menu menubar:toplevel"
 msgid "&Printer"
-msgstr ""
+msgstr "Принтер"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:148
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:160
 msgctxt "@title:menu"
 msgid "&Material"
-msgstr ""
+msgstr "Материал"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:149
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:161
 msgctxt "@title:menu"
 msgid "&Profile"
-msgstr ""
+msgstr "Профиль"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:153
 msgctxt "@action:inmenu"
 msgid "Set as Active Extruder"
-msgstr ""
+msgstr "Установить как активный экструдер"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:171
 msgctxt "@title:menu menubar:toplevel"
 msgid "E&xtensions"
-msgstr ""
+msgstr "Расширения"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:204
 msgctxt "@title:menu menubar:toplevel"
 msgid "P&references"
-msgstr ""
+msgstr "Настройки"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:212
 msgctxt "@title:menu menubar:toplevel"
 msgid "&Help"
-msgstr ""
+msgstr "Справка"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:290
 msgctxt "@action:button"
 msgid "Open File"
-msgstr ""
+msgstr "Открыть файл"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:363
 msgctxt "@action:button"
 msgid "View Mode"
-msgstr ""
+msgstr "Режим просмотра"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:440
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:14
 msgctxt "@title:tab"
 msgid "General"
-msgstr ""
+msgstr "Общее"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:443
 msgctxt "@title:tab"
 msgid "Settings"
-msgstr ""
+msgstr "Параметры"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:445
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MachinesPage.qml:15
 msgctxt "@title:tab"
 msgid "Printers"
-msgstr ""
+msgstr "Принтеры"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:447
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialsPage.qml:15
 msgctxt "@title:tab"
 msgid "Materials"
-msgstr ""
+msgstr "Материалы"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:449
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:15
 msgctxt "@title:tab"
 msgid "Profiles"
-msgstr ""
+msgstr "Профили"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:652
 msgctxt "@title:window"
 msgid "Open file"
-msgstr ""
+msgstr "Открыть файл"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/EngineLog.qml:15
 msgctxt "@title:window"
 msgid "Engine Log"
-msgstr ""
+msgstr "Журнал движка"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/JobSpecs.qml:176
 msgctxt "@label"
 msgid "00h 00min"
-msgstr ""
+msgstr "00ч 00мин"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/JobSpecs.qml:212
 msgctxt "@label"
 msgid "%1 m / ~ %2 g"
-msgstr ""
+msgstr "%1 м / ~ %1 г"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Menus/MaterialMenu.qml:26
 #: /Users/rad/devel/reprap/cura/resources/qml/Menus/NozzleMenu.qml:26
 msgctxt "@title:menuitem %1 is the value from the printer"
 msgid "Automatic: %1"
-msgstr ""
+msgstr "Автоматически: %1"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Menus/RecentFilesMenu.qml:13
 msgctxt "@title:menu menubar:file"
 msgid "Open &Recent"
-msgstr ""
+msgstr "Открыть недавние"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Menus/ViewMenu.qml:12
 msgctxt "@title:menu menubar:toplevel"
 msgid "&View"
-msgstr ""
+msgstr "Вид"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/MonitorButton.qml:90
 msgctxt "@label:MonitorStatus"
 msgid "Not connected to a printer"
-msgstr ""
+msgstr "Не подключен к принтеру"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/MonitorButton.qml:92
 msgctxt "@label:MonitorStatus"
 msgid "Printer does not accept commands"
-msgstr ""
+msgstr "Принтер не принимает команды"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/MonitorButton.qml:98
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MachinesPage.qml:189
 msgctxt "@label:MonitorStatus"
 msgid "In maintenance. Please check the printer"
-msgstr ""
+msgstr "В режиме обслуживания. Пожалуйста, проверьте принтер"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/MonitorButton.qml:103
 msgctxt "@label:MonitorStatus"
 msgid "Lost connection with the printer"
-msgstr ""
+msgstr "Потеряно соединение с принтером"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/MonitorButton.qml:105
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MachinesPage.qml:179
 msgctxt "@label:MonitorStatus"
 msgid "Printing..."
-msgstr ""
+msgstr "Печать..."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/MonitorButton.qml:108
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MachinesPage.qml:181
 msgctxt "@label:MonitorStatus"
 msgid "Paused"
-msgstr ""
+msgstr "Приостановлен"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/MonitorButton.qml:111
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MachinesPage.qml:183
 msgctxt "@label:MonitorStatus"
 msgid "Preparing..."
-msgstr ""
+msgstr "Подготовка..."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/MonitorButton.qml:113
 msgctxt "@label:MonitorStatus"
 msgid "Please remove the print"
-msgstr ""
+msgstr "Пожалуйста, удалите напечатанное"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/MonitorButton.qml:239
 msgctxt "@label:"
 msgid "Resume"
-msgstr ""
+msgstr "Продолжить"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/MonitorButton.qml:243
 msgctxt "@label:"
 msgid "Pause"
-msgstr ""
+msgstr "Пауза"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/MonitorButton.qml:272
 msgctxt "@label:"
 msgid "Abort Print"
-msgstr ""
+msgstr "О печати"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/MonitorButton.qml:282
 msgctxt "@window:title"
 msgid "Abort print"
-msgstr ""
+msgstr "О печати"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/MonitorButton.qml:284
 msgctxt "@label"
 msgid "Are you sure you want to abort the print?"
-msgstr ""
+msgstr "Вы уверены, что желаете прервать печать?"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:72
 msgctxt "@label"
 msgid "Interface"
-msgstr ""
+msgstr "Интерфейс"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:81
 msgctxt "@label"
 msgid "Language:"
-msgstr ""
+msgstr "Язык:"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:139
 msgctxt "@label"
-msgid ""
-"You will need to restart the application for language changes to have effect."
-msgstr ""
+msgid "You will need to restart the application for language changes to have effect."
+msgstr "Вам потребуется перезапустить приложения для переключения интерфейса на выбранный язык."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:154
 msgctxt "@label"
 msgid "Viewport behavior"
-msgstr ""
+msgstr "Поведение окна"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:162
 msgctxt "@info:tooltip"
-msgid ""
-"Highlight unsupported areas of the model in red. Without support these areas "
-"will not print properly."
-msgstr ""
+msgid "Highlight unsupported areas of the model in red. Without support these areas will not print properly."
+msgstr "Подсвечивать красным области модели, требующие поддержек. Без поддержек эти области не будут напечатаны правильно."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:171
 msgctxt "@option:check"
 msgid "Display overhang"
-msgstr ""
+msgstr "Отобразить нависания"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:178
 msgctxt "@info:tooltip"
-msgid ""
-"Moves the camera so the model is in the center of the view when an model is "
-"selected"
-msgstr ""
+msgid "Moves the camera so the model is in the center of the view when an model is selected"
+msgstr "Перемещать камеру так, чтобы модель при выборе помещалась в центр экрана"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:183
 msgctxt "@action:button"
 msgid "Center camera when item is selected"
-msgstr ""
+msgstr "Центрировать камеру на выбранном объекте"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:192
 msgctxt "@info:tooltip"
-msgid ""
-"Should models on the platform be moved so that they no longer intersect?"
-msgstr ""
+msgid "Should models on the platform be moved so that they no longer intersect?"
+msgstr "Следует ли размещать модели на столе так, чтобы они больше не пересекались."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:197
 msgctxt "@option:check"
 msgid "Ensure models are kept apart"
-msgstr ""
+msgstr "Удостовериться, что модели размещены рядом"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:205
 msgctxt "@info:tooltip"
 msgid "Should models on the platform be moved down to touch the build plate?"
-msgstr ""
+msgstr "Следует ли опустить модели на стол?"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:210
 msgctxt "@option:check"
 msgid "Automatically drop models to the build plate"
-msgstr ""
+msgstr "Автоматически опускать модели на стол"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:219
 msgctxt "@info:tooltip"
-msgid ""
-"Display 5 top layers in layer view or only the top-most layer. Rendering 5 "
-"layers takes longer, but may show more information."
-msgstr ""
+msgid "Display 5 top layers in layer view or only the top-most layer. Rendering 5 layers takes longer, but may show more information."
+msgstr "Показывать пять верхних слов в режиме послойного просмотра или только самый верхний слой. Отображение 5 слоёв занимает больше времени, но предоставляет больше информации."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:224
 msgctxt "@action:button"
 msgid "Display five top layers in layer view"
-msgstr ""
+msgstr "Показать пять верхних слоёв в режиме послойного просмотра"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:242
 msgctxt "@info:tooltip"
 msgid "Should only the top layers be displayed in layerview?"
-msgstr ""
+msgstr "Следует ли отображать только верхние слои в режиме послойного просмотра?"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:247
 msgctxt "@option:check"
 msgid "Only display top layer(s) in layer view"
-msgstr ""
+msgstr "Показывать только верхние слои в режиме послойного просмотра"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:263
 msgctxt "@label"
 msgid "Opening files"
-msgstr ""
+msgstr "Открытие файлов"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:269
 msgctxt "@info:tooltip"
 msgid "Should models be scaled to the build volume if they are too large?"
-msgstr ""
+msgstr "Масштабировать ли модели для размещения внутри печатаемого объёма, если они не влезают в него?"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:274
 msgctxt "@option:check"
 msgid "Scale large models"
-msgstr ""
+msgstr "Масштабировать большие модели"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:283
 msgctxt "@info:tooltip"
-msgid ""
-"An model may appear extremely small if its unit is for example in meters "
-"rather than millimeters. Should these models be scaled up?"
-msgstr ""
+msgid "An model may appear extremely small if its unit is for example in meters rather than millimeters. Should these models be scaled up?"
+msgstr "Модель может показаться очень маленькой, если её размерность задана в метрах, а не миллиметрах. Следует ли мастштабировать такие модели?"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:288
 msgctxt "@option:check"
 msgid "Scale extremely small models"
-msgstr ""
+msgstr "Масштабировать очень маленькие модели"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:297
 msgctxt "@info:tooltip"
-msgid ""
-"Should a prefix based on the printer name be added to the print job name "
-"automatically?"
-msgstr ""
+msgid "Should a prefix based on the printer name be added to the print job name automatically?"
+msgstr "Надо ли автоматически добавлять префикс, основанный на имени принтера, к названию задачи на печать?"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:302
 msgctxt "@option:check"
 msgid "Add machine prefix to job name"
-msgstr ""
+msgstr "Добавить префикс принтера к имени задачи"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:319
 msgctxt "@label"
 msgid "Privacy"
-msgstr ""
+msgstr "Приватность"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:326
 msgctxt "@info:tooltip"
 msgid "Should Cura check for updates when the program is started?"
-msgstr ""
+msgstr "Должна ли Cura проверять обновления программы при старте?"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:331
 msgctxt "@option:check"
 msgid "Check for updates on start"
-msgstr ""
+msgstr "Проверять обновления при старте"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:341
 msgctxt "@info:tooltip"
-msgid ""
-"Should anonymous data about your print be sent to Ultimaker? Note, no "
-"models, IP addresses or other personally identifiable information is sent or "
-"stored."
-msgstr ""
+msgid "Should anonymous data about your print be sent to Ultimaker? Note, no models, IP addresses or other personally identifiable information is sent or stored."
+msgstr "Можно ли отправлять анонимную информацию о вашей печати в Ultimaker? Следует отметить, то ни модели, ни IP адреса и никакая другая персональная информация не будет отправлена или сохранена."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/GeneralPage.qml:346
 msgctxt "@option:check"
 msgid "Send (anonymous) print information"
-msgstr ""
+msgstr "Отправлять (анонимно) информацию о печати"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MachinesPage.qml:37
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialsPage.qml:127
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:51
 msgctxt "@action:button"
 msgid "Activate"
-msgstr ""
+msgstr "Активировать"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MachinesPage.qml:44
 msgctxt "@action:button"
 msgid "Add"
-msgstr ""
+msgstr "Добавить"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MachinesPage.qml:50
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialsPage.qml:152
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:95
 msgctxt "@action:button"
 msgid "Remove"
-msgstr ""
+msgstr "Удалить"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MachinesPage.qml:57
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:102
 msgctxt "@action:button"
 msgid "Rename"
-msgstr ""
+msgstr "Переименовать"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MachinesPage.qml:146
 msgctxt "@label"
 msgid "Printer type:"
-msgstr ""
+msgstr "Имя принтера:"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MachinesPage.qml:154
 msgctxt "@label"
 msgid "Connection:"
-msgstr ""
+msgstr "Соединение:"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MachinesPage.qml:159
 #: /Users/rad/devel/reprap/cura/resources/qml/PrintMonitor.qml:32
 msgctxt "@info:status"
 msgid "The printer is not connected."
-msgstr ""
+msgstr "Принтер не подключен."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MachinesPage.qml:165
 msgctxt "@label"
 msgid "State:"
-msgstr ""
+msgstr "Состояние:"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MachinesPage.qml:185
 msgctxt "@label:MonitorStatus"
 msgid "Waiting for someone to clear the build plate"
-msgstr ""
+msgstr "Ожидаем, чтобы кто-нибудь освободил стол"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MachinesPage.qml:191
 msgctxt "@label:MonitorStatus"
 msgid "Aborting print..."
-msgstr ""
+msgstr "Прерывание печати…"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MachinesPage.qml:194
 msgctxt "@label:MonitorStatus"
 msgid "Waiting for a printjob"
-msgstr ""
+msgstr "Ожидаем задание на печать"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialsPage.qml:106
-msgctxt ""
-"@action:label %1 is printer name, %2 is how this printer names variants, %3 "
-"is variant name"
+msgctxt "@action:label %1 is printer name, %2 is how this printer names variants, %3 is variant name"
 msgid "Printer: %1, %2: %3"
-msgstr ""
+msgstr "Принтер: %1, %2: %3"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialsPage.qml:110
 msgctxt "@action:label %1 is printer name"
 msgid "Printer: %1"
-msgstr ""
+msgstr "Принтер: %1"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialsPage.qml:134
 msgctxt "@action:button"
 msgid "Duplicate"
-msgstr ""
+msgstr "Дублировать"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialsPage.qml:159
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:113
 msgctxt "@action:button"
 msgid "Import"
-msgstr ""
+msgstr "Импорт"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialsPage.qml:166
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:119
 msgctxt "@action:button"
 msgid "Export"
-msgstr ""
+msgstr "Экспорт"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialsPage.qml:189
 msgctxt "@action:button"
 msgid "Edit"
-msgstr ""
+msgstr "Правка"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialsPage.qml:264
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialsPage.qml:272
 msgctxt "@title:window"
 msgid "Import Material"
-msgstr ""
+msgstr "Импортировать материал"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialsPage.qml:273
 msgctxt "@info:status"
-msgid ""
-"Could not import material <filename>%1</filename>: <message>%2</message>"
-msgstr ""
+msgid "Could not import material <filename>%1</filename>: <message>%2</message>"
+msgstr "Не могу импортировать материал <filename>%1</filename>: <message>%2</message>"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialsPage.qml:277
 msgctxt "@info:status"
 msgid "Successfully imported material <filename>%1</filename>"
-msgstr ""
+msgstr "Успешно импортированный материал <filename>%1</filename>"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialsPage.qml:295
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialsPage.qml:310
 msgctxt "@title:window"
 msgid "Export Material"
-msgstr ""
+msgstr "Экспортировать материал"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialsPage.qml:314
 msgctxt "@info:status"
-msgid ""
-"Failed to export material to <filename>%1</filename>: <message>%2</message>"
-msgstr ""
+msgid "Failed to export material to <filename>%1</filename>: <message>%2</message>"
+msgstr "Не могу экспортировать материал <filename>%1</filename>: <message>%2</message>"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialsPage.qml:320
 msgctxt "@info:status"
 msgid "Successfully exported material to <filename>%1</filename>"
-msgstr ""
+msgstr "Материал успешно экспортирован в <filename>%1</filename>"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialView.qml:47
 msgctxt "@label"
 msgid "Display Name"
-msgstr ""
+msgstr "Отображаемое имя"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialView.qml:57
 msgctxt "@label"
 msgid "Brand"
-msgstr ""
+msgstr "Брэнд"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialView.qml:67
 msgctxt "@label"
 msgid "Material Type"
-msgstr ""
+msgstr "Тип материала"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialView.qml:76
 msgctxt "@label"
-msgid "Printer Monitor"
-msgstr ""
-
-#: /home/ruben/Projects/Cura/resources/qml/Sidebar.qml:382
-msgctxt "@title:tab"
-msgid "Simple"
-msgstr ""
-
-#: /home/ruben/Projects/Cura/resources/qml/Sidebar.qml:383
-msgctxt "@title:tab"
-msgid "Advanced"
-msgstr ""
-
-#: /home/ruben/Projects/Cura/resources/qml/Menus/MaterialMenu.qml:18
-#: /home/ruben/Projects/Cura/resources/qml/Menus/NozzleMenu.qml:18
-msgctxt "@title:menuitem %1 is the value from the printer"
-msgid "Automatic: %1"
-msgstr ""
+msgid "Color"
+msgstr "Цвет"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialView.qml:110
 msgctxt "@label"
 msgid "Properties"
-msgstr ""
+msgstr "Свойства"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialView.qml:112
 msgctxt "@label"
 msgid "Density"
-msgstr ""
+msgstr "Плотность"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialView.qml:125
 msgctxt "@label"
 msgid "Diameter"
-msgstr ""
+msgstr "Диаметр"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialView.qml:138
 msgctxt "@label"
 msgid "Filament Cost"
-msgstr ""
+msgstr "Стоимость материала"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialView.qml:147
 msgctxt "@label"
 msgid "Filament weight"
-msgstr ""
+msgstr "Вес материала"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialView.qml:157
 msgctxt "@label"
 msgid "Filament length"
-msgstr ""
+msgstr "Длина материала"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialView.qml:166
 msgctxt "@label"
 msgid "Cost per Meter (Approx.)"
-msgstr ""
+msgstr "Стоимость метра (приблизительно)"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialView.qml:171
 msgctxt "@label"
 msgid "%1/m"
-msgstr ""
+msgstr "%1/м"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialView.qml:177
 msgctxt "@label"
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialView.qml:190
 msgctxt "@label"
 msgid "Adhesion Information"
-msgstr ""
+msgstr "Информация об адгезии"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialView.qml:208
 msgctxt "@label"
 msgid "Print settings"
-msgstr ""
+msgstr "Параметры печати"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:29
 msgctxt "@label"
 msgid "Protected profiles"
-msgstr ""
+msgstr "Защищённые профили"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:29
 msgctxt "@label"
 msgid "Custom profiles"
-msgstr ""
+msgstr "Собственные профили"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:64
 msgctxt "@label"
 msgid "Create"
-msgstr ""
+msgstr "Создать"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:80
 msgctxt "@label"
 msgid "Duplicate"
-msgstr ""
+msgstr "Дублировать"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:126
 msgctxt "@label %1 is printer name"
 msgid "Printer: %1"
-msgstr ""
+msgstr "Принтер: %1"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:165
 msgctxt "@action:button"
 msgid "Update profile with current settings"
-msgstr ""
+msgstr "Внести текущие параметры в профиль"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:173
 msgctxt "@action:button"
 msgid "Discard current settings"
-msgstr ""
+msgstr "Сбросить текущие параметры"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:190
 msgctxt "@action:label"
-msgid ""
-"This profile uses the defaults specified by the printer, so it has no "
-"settings in the list below."
-msgstr ""
+msgid "This profile uses the defaults specified by the printer, so it has no settings in the list below."
+msgstr "Данный профиль использует параметры принтера по умолчанию, то есть у него нет параметров из списка ниже."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:197
 msgctxt "@action:label"
 msgid "Your current settings match the selected profile."
-msgstr ""
+msgstr "Ваши текущие параметры совпадают с выбранным профилем."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:215
 msgctxt "@title:tab"
 msgid "Global Settings"
-msgstr ""
+msgstr "Общие параметры"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:258
 msgctxt "@title:window"
 msgid "Rename Profile"
-msgstr ""
+msgstr "Переименовать профиль"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:271
 msgctxt "@title:window"
 msgid "Create Profile"
-msgstr ""
+msgstr "Создать профиль"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:285
 msgctxt "@title:window"
 msgid "Duplicate Profile"
-msgstr ""
+msgstr "Скопировать профиль"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:299
 msgctxt "@window:title"
 msgid "Import Profile"
-msgstr ""
+msgstr "Импортировать профиль"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:307
 msgctxt "@title:window"
 msgid "Import Profile"
-msgstr ""
+msgstr "Импортировать профиль"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfilesPage.qml:335
 msgctxt "@title:window"
 msgid "Export Profile"
-msgstr ""
+msgstr "Экспортировать профиль"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfileTab.qml:53
 msgctxt "@title:column"
 msgid "Setting"
-msgstr ""
+msgstr "Параметр"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfileTab.qml:60
 msgctxt "@title:column"
 msgid "Profile"
-msgstr ""
+msgstr "Профиль"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfileTab.qml:67
 msgctxt "@title:column"
 msgid "Current"
-msgstr ""
+msgstr "Текущий"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/ProfileTab.qml:75
 msgctxt "@title:column"
 msgid "Unit"
-msgstr ""
+msgstr "Единица"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/SettingVisibilityPage.qml:14
 msgctxt "@title:tab"
 msgid "Setting Visibility"
-msgstr ""
+msgstr "Видимость настроек"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/SettingVisibilityPage.qml:44
 msgctxt "@label:textbox"
 msgid "Check all"
-msgstr ""
+msgstr "Выбрать все"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/PrintMonitor.qml:43
 msgctxt "@label"
 msgid "Temperatures"
-msgstr ""
+msgstr "Температуры"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/PrintMonitor.qml:51
 msgctxt "@label"
 msgid "Hotend"
-msgstr ""
+msgstr "Голова"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/PrintMonitor.qml:61
 msgctxt "@label"
 msgid "Build plate"
-msgstr ""
+msgstr "Стол"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/PrintMonitor.qml:69
 msgctxt "@label"
 msgid "Active print"
-msgstr ""
+msgstr "Идёт печать"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/PrintMonitor.qml:74
 msgctxt "@label"
 msgid "Job Name"
-msgstr ""
+msgstr "Имя задачи"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/PrintMonitor.qml:80
 msgctxt "@label"
 msgid "Printing Time"
-msgstr ""
+msgstr "Время печати"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/PrintMonitor.qml:86
 msgctxt "@label"
 msgid "Estimated time left"
-msgstr ""
+msgstr "Осталось примерно"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SaveButton.qml:24
 msgctxt "@label:PrintjobStatus"
 msgid "Please load a 3d model"
-msgstr ""
+msgstr "Пожалуйста, загрузите 3D модель"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SaveButton.qml:30
 msgctxt "@label:PrintjobStatus"
 msgid "Preparing to slice..."
-msgstr ""
+msgstr "Подготовка к нарезке на слои..."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SaveButton.qml:32
 msgctxt "@label:PrintjobStatus"
 msgid "Slicing..."
-msgstr ""
+msgstr "Нарезка на слои..."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SaveButton.qml:34
 msgctxt "@label:PrintjobStatus %1 is target operation"
 msgid "Ready to %1"
-msgstr ""
+msgstr "Готов к %1"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SaveButton.qml:36
 msgctxt "@label:PrintjobStatus"
 msgid "Unable to Slice"
-msgstr ""
+msgstr "Невозможно нарезать"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SaveButton.qml:175
 msgctxt "@info:tooltip"
 msgid "Select the active output device"
-msgstr ""
+msgstr "Выберите активное целевое устройство"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Settings/SettingCategory.qml:93
 msgctxt "@label"
 msgid ""
-"Some hidden settings use values different from their normal calculated "
-"value.\n"
+"Some hidden settings use values different from their normal calculated value.\n"
 "\n"
 "Click to make these settings visible."
 msgstr ""
+"Некоторые из скрытых параметров используют значения, отличающиеся о их вычисленных значений.\n"
+"\n"
+"Щёлкните. чтобы сделать эти параметры видимыми."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Settings/SettingItem.qml:59
 msgctxt "@label Header for list of settings."
 msgid "Affects"
-msgstr ""
+msgstr "Влияет на"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Settings/SettingItem.qml:64
 msgctxt "@label Header for list of settings."
 msgid "Affected By"
-msgstr ""
+msgstr "Зависит от"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Settings/SettingItem.qml:155
 msgctxt "@label"
-msgid ""
-"This setting is always shared between all extruders. Changing it here will "
-"change the value for all extruders"
-msgstr ""
+msgid "This setting is always shared between all extruders. Changing it here will change the value for all extruders"
+msgstr "Этот параметр всегда действует на все экструдеры. Его изменение повлияет на все экструдеры."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Settings/SettingItem.qml:158
 msgctxt "@label"
 msgid "The value is resolved from per-extruder values "
-msgstr ""
+msgstr "Значение получается из параметров каждого экструдера "
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Settings/SettingItem.qml:186
 msgctxt "@label"
@@ -2084,66 +2001,71 @@ msgid ""
 "\n"
 "Click to restore the value of the profile."
 msgstr ""
+"Значение этого параметра отличается от значения в профиле.\n"
+"\n"
+"Щёлкните для восстановления значения из профиля."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Settings/SettingItem.qml:268
 msgctxt "@label"
 msgid ""
-"This setting is normally calculated, but it currently has an absolute value "
-"set.\n"
+"This setting is normally calculated, but it currently has an absolute value set.\n"
 "\n"
 "Click to restore the calculated value."
 msgstr ""
+"Обычно это значение вычисляется, но в настоящий момент было установлено явно.\n"
+"\n"
+"Щёлкните для восстановления вычисленного значения."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Settings/SettingView.qml:201
 msgctxt "@action:menu"
 msgid "Copy value to all extruders"
-msgstr ""
+msgstr "Скопировать значение для всех экструдеров"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Settings/SettingView.qml:215
 msgctxt "@action:menu"
 msgid "Hide this setting"
-msgstr ""
+msgstr "Спрятать этот параметр"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Settings/SettingView.qml:221
 msgctxt "@action:menu"
 msgid "Configure setting visiblity..."
-msgstr ""
+msgstr "Настроить видимость параметров..."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Sidebar.qml:189
 msgctxt "@label:listbox"
 msgid "Print Setup"
-msgstr ""
+msgstr "Настройка печати"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Sidebar.qml:261
 msgctxt "@label"
 msgid "Printer Monitor"
-msgstr ""
+msgstr "Монитор принтера"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Sidebar.qml:382
 msgctxt "@title:tab"
 msgid "Recommended"
-msgstr ""
+msgstr "Рекомендованная"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Sidebar.qml:383
 msgctxt "@title:tab"
 msgid "Advanced"
-msgstr ""
+msgstr "Продвинутая"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarHeader.qml:40
 msgctxt "@label:listbox"
 msgid "Printer:"
-msgstr ""
+msgstr "Принтер:"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarHeader.qml:188
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarHeader.qml:196
 msgctxt "@label"
 msgid "Material"
-msgstr ""
+msgstr "Материал"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarHeader.qml:279
 msgctxt "@label"
 msgid "Profile:"
-msgstr ""
+msgstr "Профиль:"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarHeader.qml:325
 msgctxt "@tooltip"
@@ -2152,102 +2074,275 @@ msgid ""
 "\n"
 "Click to open the profile manager."
 msgstr ""
+"Значения некоторых параметров отличаются от значений в профиле.\n"
+"\n"
+"Щёлкните, открыть менеджер профилей."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:38
 msgctxt "@label"
 msgid "Infill:"
-msgstr ""
+msgstr "Заполнение:"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:169
 msgctxt "@label"
 msgid "Hollow"
-msgstr ""
+msgstr "Пустота"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:173
 msgctxt "@label"
 msgid "No (0%) infill will leave your model hollow at the cost of low strength"
-msgstr ""
+msgstr "Отсутствие (0%) заполнения сделает вашу модель полой и минимально прочной"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:177
 msgctxt "@label"
 msgid "Light"
-msgstr ""
+msgstr "Лёгкое"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:181
 msgctxt "@label"
 msgid "Light (20%) infill will give your model an average strength"
-msgstr ""
+msgstr "Лёгкое (20%) заполнение придаст вашей модели среднюю прочность"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:185
 msgctxt "@label"
 msgid "Dense"
-msgstr ""
+msgstr "Плотное"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:189
 msgctxt "@label"
 msgid "Dense (50%) infill will give your model an above average strength"
-msgstr ""
+msgstr "Плотное (50%) заполнение придаст вашей модели прочность выше среднего"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:193
 msgctxt "@label"
 msgid "Solid"
-msgstr ""
+msgstr "Твёрдое"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:197
 msgctxt "@label"
 msgid "Solid (100%) infill will make your model completely solid"
-msgstr ""
+msgstr "Твёрдое (100%) заполнение сделает вашу модель полностью твёрдой."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:219
 msgctxt "@label"
 msgid "Helper Parts:"
-msgstr ""
+msgstr "Помощники:"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:233
 msgctxt "@option:check"
 msgid "Print Build Plate Adhesion"
-msgstr ""
+msgstr "Прилипание к столу"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:263
 msgctxt "@label"
-msgid ""
-"Enable printing a brim or raft. This will add a flat area around or under "
-"your object which is easy to cut off afterwards."
-msgstr ""
+msgid "Enable printing a brim or raft. This will add a flat area around or under your object which is easy to cut off afterwards."
+msgstr "Разрешает печать каймы или подложки. Это добавляет плоскую область вокруг или под вашим объектом, которую легко удалить после печати."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:295
 msgctxt "@option:check"
 msgid "Print Support Structure"
-msgstr ""
+msgstr "Печать структуры поддержек"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:312
 msgctxt "@label"
-msgid ""
-"Enable printing support structures. This will build up supporting structures "
-"below the model to prevent the model from sagging or printing in mid air."
-msgstr ""
+msgid "Enable printing support structures. This will build up supporting structures below the model to prevent the model from sagging or printing in mid air."
+msgstr "Разрешает печать поддержек. Это позволяет строить поддерживающие структуры под моделью, предотвращая её от провисания или печати в воздухе."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:355
 msgctxt "@label"
-msgid ""
-"Select which extruder to use for support. This will build up supporting "
-"structures below the model to prevent the model from sagging or printing in "
-"mid air."
-msgstr ""
+msgid "Select which extruder to use for support. This will build up supporting structures below the model to prevent the model from sagging or printing in mid air."
+msgstr "Выбирает какой экструдер следует использовать для поддержек. Будут созданы поддерживающие структуры под моделью для предотвращения проседания краёв или печати в воздухе."
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:381
 msgctxt "@label"
 msgid "Don't print support"
-msgstr ""
+msgstr "Не печатать поддержки"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:386
 msgctxt "@label"
 msgid "Print support using %1"
-msgstr ""
+msgstr "Печать поддержек с %1"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/SidebarSimple.qml:407
 msgctxt "@label"
-msgid ""
-"Need help improving your prints? Read the <a href='%1'>Ultimaker "
-"Troubleshooting Guides</a>"
-msgstr ""
+msgid "Need help improving your prints? Read the <a href='%1'>Ultimaker Troubleshooting Guides</a>"
+msgstr "Нужна помощь с улучшением качества печати? Прочитайте <a href='%1'>Руководства Ultimaker по решению проблем</a>"
+
+#~ msgctxt "@title:tab"
+#~ msgid "Simple"
+#~ msgstr "Простая"
+
+#~ msgid "Modify G-Code"
+#~ msgstr "Изменить G-код"
+
+#~ msgctxt "@label"
+#~ msgid "Post Processing"
+#~ msgstr "Пост обработка"
+
+#~ msgctxt "Description of plugin"
+#~ msgid "Extension that allows for user created scripts for post processing"
+#~ msgstr "Расширения, которые позволяют пользователю создавать скрипты для пост обработки"
+
+#~ msgctxt "@info:status"
+#~ msgid "Successfully imported profiles {0}"
+#~ msgstr "Успешно импортированы профили {0}"
+
+#~ msgctxt "@title:window"
+#~ msgid "Post Processing Plugin"
+#~ msgstr "Плагин пост обработки"
+
+#~ msgctxt "@label"
+#~ msgid "Scripts"
+#~ msgstr "Скрипты"
+
+#~ msgctxt "@label"
+#~ msgid "Active Scripts"
+#~ msgstr "Активные скрипты"
+
+#~ msgctxt "@label"
+#~ msgid "Done"
+#~ msgstr "Выполнено"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "English"
+#~ msgstr "Английский"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Finnish"
+#~ msgstr "Финский"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "French"
+#~ msgstr "Французский"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "German"
+#~ msgstr "Немецкий"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Italian"
+#~ msgstr "Итальянский"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Dutch"
+#~ msgstr "Датский"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Spanish"
+#~ msgstr "Испанский"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Firmware"
+#~ msgstr "Прошивка"
+
+#~ msgctxt "@title:window"
+#~ msgid "Print with USB"
+#~ msgstr "Печать через USB"
+
+#~ msgctxt "@label"
+#~ msgid "Extruder Temperature %1"
+#~ msgstr "Температура экструдера %1"
+
+#~ msgctxt "@action:button"
+#~ msgid "Print"
+#~ msgstr "Печать"
+
+#~ msgctxt "@action:button"
+#~ msgid "Add Setting"
+#~ msgstr "Добавить настройку"
+
+#~ msgctxt "@title"
+#~ msgid "Add Printer"
+#~ msgstr "Добавление принтера"
+
+#~ msgctxt "@label"
+#~ msgid "0.0 m"
+#~ msgstr "0.0 м"
+
+#~ msgctxt "@label"
+#~ msgid "%1 m"
+#~ msgstr "%1 м"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Setup"
+#~ msgstr "Настройка"
+
+#~ msgctxt "@action:inmenu menubar:profile"
+#~ msgid "&Add Profile..."
+#~ msgstr "Добавить профиль..."
+
+#~ msgctxt "@title:menu menubar:toplevel"
+#~ msgid "P&rofile"
+#~ msgstr "Профиль"
+
+#~ msgctxt "@title:tab"
+#~ msgid "View"
+#~ msgstr "Вид"
+
+#~ msgctxt "@option:check"
+#~ msgid "Generate Brim"
+#~ msgstr "Генерировать кайму"
+
+#~ msgctxt "@title:window"
+#~ msgid "View"
+#~ msgstr "Просмотр"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Print Job"
+#~ msgstr "Задание на печать"
+
+#~ msgctxt "@action:button"
+#~ msgid "Skip Printer Check"
+#~ msgstr "Пропустить проверку принтера"
+
+#~ msgctxt "@info:status"
+#~ msgid "Incomplete"
+#~ msgstr "Не выполнено"
+
+#~ msgctxt "@label"
+#~ msgid "To assist you in having better default settings for your Ultimaker. Cura would like to know which upgrades you have in your machine:"
+#~ msgstr "Для того, чтобы установить лучшие настройки по умолчанию для вашего Ultimaker, Cura должна знать какие изменения вы внесли в свой принтер:"
+
+#~ msgctxt "@option:check"
+#~ msgid "Olsson Block"
+#~ msgstr "Блок Олссона"
+
+#~ msgctxt "@action:button"
+#~ msgid "Skip Bedleveling"
+#~ msgstr "Пропустить выравнивание стола"
+
+#~ msgctxt "@label"
+#~ msgid "Everything is in order! You're done with bedleveling."
+#~ msgstr "Всё в порядке! Вы завершили выравнивание стола."
+
+#~ msgctxt "@option:check"
+#~ msgid "Extruder driver upgrades"
+#~ msgstr "Обновления экструдера"
+
+#~ msgctxt "@option:check"
+#~ msgid "Heated printer bed (self built)"
+#~ msgstr "Нагреваемый стол (самодельный)"
+
+#~ msgctxt "@label"
+#~ msgid "If you bought your Ultimaker after october 2012 you will have the Extruder drive upgrade. If you do not have this upgrade, it is highly recommended to improve reliability. This upgrade can be bought from the Ultimaker webshop or found on thingiverse as thing:26094"
+#~ msgstr "Если вы купили ваш Ultimaker после октября 2012 года, то у вас есть обновление экструдера. Если у вас нет этого обновления, оно крайне рекомендуется. Это обновление можно купить на сайте Ultimaker или найти на Thingiverse (thing:26094)"
+
+#~ msgctxt "@label"
+#~ msgid "Cura requires these new features and thus your firmware will most likely need to be upgraded. You can do so now."
+#~ msgstr "Cura требует эти новые возможности и соответственно, ваша прошивка также может нуждаться в обновлении. Вы можете сделать это прямо сейчас."
+
+#~ msgctxt "@action:button"
+#~ msgid "Upgrade to Marlin Firmware"
+#~ msgstr "Обновиться на прошивку Marlin"
+
+#~ msgctxt "@action:button"
+#~ msgid "Skip Upgrade"
+#~ msgstr "Пропусть апгрейд"
+
+#~ msgctxt "@label"
+#~ msgid "This printer name has already been used. Please choose a different printer name."
+#~ msgstr "Данное имя принтера уже используется. Пожалуйста, выберите другое имя для принтера."
+
+#~ msgctxt "@title"
+#~ msgid "Bed Levelling"
+#~ msgstr "Выравнивание стола"
