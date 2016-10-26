@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Uranium json setting files\n"
 "Report-Msgid-Bugs-To: http://github.com/ultimaker/uranium\n"
-"POT-Creation-Date: 2016-10-25 20:14+0000\n"
-"PO-Revision-Date: 2016-10-25 20:18+0300\n"
+"POT-Creation-Date: 2016-10-26 09:24+0000\n"
+"PO-Revision-Date: 2016-10-26 20:02+0300\n"
 "Last-Translator: Ruslan Popov <ruslan.popov@gmail.com>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -264,42 +264,42 @@ msgstr "Генерируемый вариант G-кода."
 #: /fdmprinter.def.json
 msgctxt "machine_gcode_flavor option RepRap (Marlin/Sprinter)"
 msgid "RepRap (Marlin/Sprinter)"
-msgstr ""
+msgstr "RepRap (Marlin/Sprinter)"
 
 #: /fdmprinter.def.json
 msgctxt "machine_gcode_flavor option RepRap (Volumatric)"
 msgid "RepRap (Volumetric)"
-msgstr ""
+msgstr "RepRap (Volumetric)"
 
 #: /fdmprinter.def.json
 msgctxt "machine_gcode_flavor option UltiGCode"
 msgid "Ultimaker 2"
-msgstr ""
+msgstr "Ultimaker 2"
 
 #: /fdmprinter.def.json
 msgctxt "machine_gcode_flavor option Griffin"
 msgid "Griffin"
-msgstr ""
+msgstr "Griffin"
 
 #: /fdmprinter.def.json
 msgctxt "machine_gcode_flavor option Makerbot"
 msgid "Makerbot"
-msgstr ""
+msgstr "Makerbot"
 
 #: /fdmprinter.def.json
 msgctxt "machine_gcode_flavor option BFB"
 msgid "Bits from Bytes"
-msgstr ""
+msgstr "Bits from Bytes"
 
 #: /fdmprinter.def.json
 msgctxt "machine_gcode_flavor option MACH3"
 msgid "Mach3"
-msgstr ""
+msgstr "Mach3"
 
 #: /fdmprinter.def.json
 msgctxt "machine_gcode_flavor option Repetier"
 msgid "Repetier"
-msgstr ""
+msgstr "Repetier"
 
 #: /fdmprinter.def.json
 msgctxt "machine_disallowed_areas label"
@@ -474,32 +474,32 @@ msgstr "Стандартное ускорение для движений гол
 #: /fdmprinter.def.json
 msgctxt "machine_max_jerk_xy label"
 msgid "Default X-Y Jerk"
-msgstr ""
+msgstr "Обычный X-Y рывок"
 
 #: /fdmprinter.def.json
 msgctxt "machine_max_jerk_xy description"
 msgid "Default jerk for movement in the horizontal plane."
-msgstr ""
+msgstr "Стандартное изменение ускорения для движения в горизонтальной плоскости."
 
 #: /fdmprinter.def.json
 msgctxt "machine_max_jerk_z label"
 msgid "Default Z Jerk"
-msgstr ""
+msgstr "Обычный Z рывок"
 
 #: /fdmprinter.def.json
 msgctxt "machine_max_jerk_z description"
 msgid "Default jerk for the motor of the Z-direction."
-msgstr ""
+msgstr "Стандартное изменение ускорения для мотора по оси Z."
 
 #: /fdmprinter.def.json
 msgctxt "machine_max_jerk_e label"
 msgid "Default Filament Jerk"
-msgstr ""
+msgstr "Обычный рывок материала"
 
 #: /fdmprinter.def.json
 msgctxt "machine_max_jerk_e description"
 msgid "Default jerk for the motor of the filament."
-msgstr ""
+msgstr "Стандартное изменение ускорения для мотора, подающего материал."
 
 #: /fdmprinter.def.json
 msgctxt "machine_minimum_feedrate label"
@@ -749,12 +749,12 @@ msgstr "Зигзаг"
 #: /fdmprinter.def.json
 msgctxt "wall_0_inset label"
 msgid "Outer Wall Inset"
-msgstr ""
+msgstr "Вставка внешней стенки"
 
 #: /fdmprinter.def.json
 msgctxt "wall_0_inset description"
 msgid "Inset applied to the path of the outer wall. If the outer wall is smaller than the nozzle, and printed after the inner walls, use this offset to get the hole in the nozzle to overlap with the inner walls instead of the outside of the model."
-msgstr ""
+msgstr "Вставка применяется для внешних стенок. Если внешняя стенка меньше диаметра сопла и печатается после внутренних стенок, то используйте это смещение для захода соплом на внутренние стенки, вместо выхода за модель."
 
 #: /fdmprinter.def.json
 msgctxt "outer_inset_first label"
@@ -844,7 +844,7 @@ msgstr "Случайно"
 #: /fdmprinter.def.json
 msgctxt "skin_no_small_gaps_heuristic label"
 msgid "Ignore Small Z Gaps"
-msgstr "Игнорирование небольших зазоров по оси Z"
+msgstr "Игнорирование Z зазоров"
 
 #: /fdmprinter.def.json
 msgctxt "skin_no_small_gaps_heuristic description"
@@ -989,22 +989,22 @@ msgstr "Толщина слоя для материала заполнения. 
 #: /fdmprinter.def.json
 msgctxt "gradual_infill_steps label"
 msgid "Gradual Infill Steps"
-msgstr ""
+msgstr "Изменение шага заполнения"
 
 #: /fdmprinter.def.json
 msgctxt "gradual_infill_steps description"
 msgid "Number of times to reduce the infill density by half when getting further below top surfaces. Areas which are closer to top surfaces get a higher density, up to the Infill Density."
-msgstr ""
+msgstr "Количество шагов уменьшения наполовину плотности заполнения вглубь модели. Области, располагающиеся ближе к краю модели, получают большую плотность, до указанной в \"Плотность заполнения.\""
 
 #: /fdmprinter.def.json
 msgctxt "gradual_infill_step_height label"
 msgid "Gradual Infill Step Height"
-msgstr ""
+msgstr "Высота изменения шага заполнения"
 
 #: /fdmprinter.def.json
 msgctxt "gradual_infill_step_height description"
 msgid "The height of infill of a given density before switching to half the density."
-msgstr ""
+msgstr "Высота заполнения с указанной плотностью перед переключением на половину плотности."
 
 #: /fdmprinter.def.json
 msgctxt "infill_before_walls label"
@@ -1039,7 +1039,7 @@ msgstr "Изменять температуру каждого слоя авто
 #: /fdmprinter.def.json
 msgctxt "material_print_temperature label"
 msgid "Printing Temperature"
-msgstr "Температура печати"
+msgstr "Температура сопла"
 
 #: /fdmprinter.def.json
 msgctxt "material_print_temperature description"
@@ -1114,7 +1114,7 @@ msgstr "Величина отката"
 #: /fdmprinter.def.json
 msgctxt "retraction_amount description"
 msgid "The length of material retracted during a retraction move."
-msgstr "Длина нить, которая будет извлечена по время отката."
+msgstr "Длина нити материала, которая будет извлечена по время отката."
 
 #: /fdmprinter.def.json
 msgctxt "retraction_speed label"
@@ -1187,6 +1187,36 @@ msgid "The window in which the maximum retraction count is enforced. This value 
 msgstr "Окно, в котором может быть выполнено максимальное количество откатов. Это значение приблизительно должно совпадать с расстоянием отката таким образом, чтобы количество выполненных откатов распределялось на величину выдавленного материала."
 
 #: /fdmprinter.def.json
+msgctxt "retraction_hop_enabled label"
+msgid "Z Hop when Retracted"
+msgstr "Поднятие оси Z при откате"
+
+#: /fdmprinter.def.json
+msgctxt "retraction_hop_enabled description"
+msgid "Whenever a retraction is done, the build plate is lowered to create clearance between the nozzle and the print. It prevents the nozzle from hitting the print during travel moves, reducing the chance to knock the print from the build plate."
+msgstr "При выполнении отката между соплом и печатаемой деталью создаётся зазор. Это предотвращает возможность касания сопла частей детали при его перемещении, снижая вероятность смещения детали на столе."
+
+#: /fdmprinter.def.json
+msgctxt "retraction_hop_only_when_collides label"
+msgid "Z Hop Only Over Printed Parts"
+msgstr "Поднятие оси Z только над напечатанными частями"
+
+#: /fdmprinter.def.json
+msgctxt "retraction_hop_only_when_collides description"
+msgid "Only perform a Z Hop when moving over printed parts which cannot be avoided by horizontal motion by Avoid Printed Parts when Traveling."
+msgstr "Выполнять поднятие оси Z только в случае движения над напечатанными частями, которые нельзя обогнуть горизонтальным движением, используя «Обход напечатанных деталей» при перемещении."
+
+#: /fdmprinter.def.json
+msgctxt "retraction_hop label"
+msgid "Z Hop Height"
+msgstr "Высота поднятия оси Z"
+
+#: /fdmprinter.def.json
+msgctxt "retraction_hop description"
+msgid "The height difference when performing a Z Hop."
+msgstr "Расстояние, на которое приподнимается ось Z."
+
+#: /fdmprinter.def.json
 msgctxt "material_standby_temperature label"
 msgid "Standby Temperature"
 msgstr "Температура ожидания"
@@ -1235,6 +1265,16 @@ msgstr "Скорость наполнения при смене экструде
 msgctxt "switch_extruder_prime_speed description"
 msgid "The speed at which the filament is pushed back after a nozzle switch retraction."
 msgstr "Скорость, с которой материал будет возвращён обратно при смене экструдера."
+
+#: /fdmprinter.def.json
+msgctxt "retraction_hop_after_extruder_switch label"
+msgid "Z Hop After Extruder Switch"
+msgstr "Поднятие оси Z после смены экструдера"
+
+#: /fdmprinter.def.json
+msgctxt "retraction_hop_after_extruder_switch description"
+msgid "After the machine switched from one extruder to the other, the build plate is lowered to create clearance between the nozzle and the print. This prevents the nozzle from leaving oozed material on the outside of a print."
+msgstr "При переключении принтера на другой экструдер между соплом и печатаемой деталью создаётся зазор. Это предотвращает возможность вытекания материала и его прилипание к внешней части печатаемой модели."
 
 #: /fdmprinter.def.json
 msgctxt "speed label"
@@ -1599,162 +1639,162 @@ msgstr "Ускорение, с которым происходит печать 
 #: /fdmprinter.def.json
 msgctxt "jerk_enabled label"
 msgid "Enable Jerk Control"
-msgstr ""
+msgstr "Включить управление рывком"
 
 #: /fdmprinter.def.json
 msgctxt "jerk_enabled description"
 msgid "Enables adjusting the jerk of print head when the velocity in the X or Y axis changes. Increasing the jerk can reduce printing time at the cost of print quality."
-msgstr ""
+msgstr "Разрешает управление скоростью изменения ускорений головы по осям X или Y. Увеличение данного значения может сократить время печати за счёт его качества."
 
 #: /fdmprinter.def.json
 msgctxt "jerk_print label"
 msgid "Print Jerk"
-msgstr ""
+msgstr "Рывок печати"
 
 #: /fdmprinter.def.json
 msgctxt "jerk_print description"
 msgid "The maximum instantaneous velocity change of the print head."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости печатающей головки."
 
 #: /fdmprinter.def.json
 msgctxt "jerk_infill label"
 msgid "Infill Jerk"
-msgstr ""
+msgstr "Рывок заполнения"
 
 #: /fdmprinter.def.json
 msgctxt "jerk_infill description"
 msgid "The maximum instantaneous velocity change with which infill is printed."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости, с которой печатается заполнение."
 
 #: /fdmprinter.def.json
 msgctxt "jerk_wall label"
 msgid "Wall Jerk"
-msgstr ""
+msgstr "Рывок стены"
 
 #: /fdmprinter.def.json
 msgctxt "jerk_wall description"
 msgid "The maximum instantaneous velocity change with which the walls are printed."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости, с которой будут напечатаны стены."
 
 #: /fdmprinter.def.json
 msgctxt "jerk_wall_0 label"
 msgid "Outer Wall Jerk"
-msgstr ""
+msgstr "Рывок внешних стен"
 
 #: /fdmprinter.def.json
 msgctxt "jerk_wall_0 description"
 msgid "The maximum instantaneous velocity change with which the outermost walls are printed."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости, с которой печатаются внешние стенки."
 
 #: /fdmprinter.def.json
 msgctxt "jerk_wall_x label"
 msgid "Inner Wall Jerk"
-msgstr ""
+msgstr "Рывок внутренних стен"
 
 #: /fdmprinter.def.json
 msgctxt "jerk_wall_x description"
 msgid "The maximum instantaneous velocity change with which all inner walls are printed."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости, с которой печатаются внутренние стенки."
 
 #: /fdmprinter.def.json
 msgctxt "jerk_topbottom label"
 msgid "Top/Bottom Jerk"
-msgstr ""
+msgstr "Рывок крышки/дна"
 
 #: /fdmprinter.def.json
 msgctxt "jerk_topbottom description"
 msgid "The maximum instantaneous velocity change with which top/bottom layers are printed."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости, с которой печатаются верхние и нижние слои."
 
 #: /fdmprinter.def.json
 msgctxt "jerk_support label"
 msgid "Support Jerk"
-msgstr ""
+msgstr "Рывок поддержек"
 
 #: /fdmprinter.def.json
 msgctxt "jerk_support description"
 msgid "The maximum instantaneous velocity change with which the support structure is printed."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости, с которой печатаются поддержки."
 
 #: /fdmprinter.def.json
 msgctxt "jerk_support_infill label"
 msgid "Support Infill Jerk"
-msgstr ""
+msgstr "Рывок заполнение поддержек"
 
 #: /fdmprinter.def.json
 msgctxt "jerk_support_infill description"
 msgid "The maximum instantaneous velocity change with which the infill of support is printed."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости, с которой печатается заполнение поддержек."
 
 #: /fdmprinter.def.json
 msgctxt "jerk_support_interface label"
 msgid "Support Interface Jerk"
-msgstr ""
+msgstr "Рывок связи поддержек"
 
 #: /fdmprinter.def.json
 msgctxt "jerk_support_interface description"
 msgid "The maximum instantaneous velocity change with which the roofs and bottoms of support are printed."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости, с которой печатается связующие слои поддержек."
 
 #: /fdmprinter.def.json
 msgctxt "jerk_prime_tower label"
 msgid "Prime Tower Jerk"
-msgstr ""
+msgstr "Рывок черновых башен"
 
 #: /fdmprinter.def.json
 msgctxt "jerk_prime_tower description"
 msgid "The maximum instantaneous velocity change with which the prime tower is printed."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости, с которой печатается черновая башня."
 
 #: /fdmprinter.def.json
 msgctxt "jerk_travel label"
 msgid "Travel Jerk"
-msgstr ""
+msgstr "Рывок перемещения"
 
 #: /fdmprinter.def.json
 msgctxt "jerk_travel description"
 msgid "The maximum instantaneous velocity change with which travel moves are made."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости, с которой выполняются перемещения."
 
 #: /fdmprinter.def.json
 msgctxt "jerk_layer_0 label"
 msgid "Initial Layer Jerk"
-msgstr ""
+msgstr "Рывок первого слоя"
 
 #: /fdmprinter.def.json
 msgctxt "jerk_layer_0 description"
 msgid "The print maximum instantaneous velocity change for the initial layer."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости на первом слое."
 
 #: /fdmprinter.def.json
 msgctxt "jerk_print_layer_0 label"
 msgid "Initial Layer Print Jerk"
-msgstr ""
+msgstr "Рывок печати первого слоя"
 
 #: /fdmprinter.def.json
 msgctxt "jerk_print_layer_0 description"
 msgid "The maximum instantaneous velocity change during the printing of the initial layer."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости, с которой печатается первый слой."
 
 #: /fdmprinter.def.json
 msgctxt "jerk_travel_layer_0 label"
 msgid "Initial Layer Travel Jerk"
-msgstr ""
+msgstr "Рывок перемещения первого слоя"
 
 #: /fdmprinter.def.json
 msgctxt "jerk_travel_layer_0 description"
 msgid "The acceleration for travel moves in the initial layer."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости, с которой происходят перемещения на первом слое."
 
 #: /fdmprinter.def.json
 msgctxt "jerk_skirt_brim label"
 msgid "Skirt/Brim Jerk"
-msgstr ""
+msgstr "Рывок юбки/каймы"
 
 #: /fdmprinter.def.json
 msgctxt "jerk_skirt_brim description"
 msgid "The maximum instantaneous velocity change with which the skirt and brim are printed."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости, с которой печатается юбка и кайма."
 
 #: /fdmprinter.def.json
 msgctxt "travel label"
@@ -1774,7 +1814,7 @@ msgstr "Режим комбинга"
 #: /fdmprinter.def.json
 msgctxt "retraction_combing description"
 msgid "Combing keeps the nozzle within already printed areas when traveling. This results in slightly longer travel moves but reduces the need for retractions. If combing is off, the material will retract and the nozzle moves in a straight line to the next point. It is also possible to avoid combing over top/bottom skin areas by combing within the infill only. It is also possible to avoid combing over top/bottom skin areas by combing within the infill only."
-msgstr "Комбинг удерживает сопло при перемещении внутри уже напечатанных зон. Это выражается в небольшом увеличении пути, но уменьшает необходимость в откатах. При отключенном комбинге выполняется откат и сопло передвигается в следующую точку по прямой. Также есть возможность не применять комбинг над областями поверхностей крышки/дна, разрешив комбинг только над заполнением."
+msgstr "Комбинг удерживает сопло при перемещении внутри уже напечатанных зон. Это приводит к небольшому увеличению пути, но уменьшает необходимость в откатах. При отключенном комбинге выполняется откат и сопло передвигается в следующую точку по прямой. Также есть возможность не применять комбинг над областями поверхностей крышки/дна, разрешив комбинг только над заполнением."
 
 #: /fdmprinter.def.json
 msgctxt "retraction_combing option off"
@@ -1794,7 +1834,7 @@ msgstr "Без поверхности"
 #: /fdmprinter.def.json
 msgctxt "travel_avoid_other_parts label"
 msgid "Avoid Printed Parts when Traveling"
-msgstr "Избегать напечатанных частей при перемещении"
+msgstr "Избегать напечатанное"
 
 #: /fdmprinter.def.json
 msgctxt "travel_avoid_other_parts description"
@@ -1804,52 +1844,12 @@ msgstr "Сопло избегает уже напечатанных частей
 #: /fdmprinter.def.json
 msgctxt "travel_avoid_distance label"
 msgid "Travel Avoid Distance"
-msgstr "Дистанция обхода при перемещении"
+msgstr "Дистанция обхода"
 
 #: /fdmprinter.def.json
 msgctxt "travel_avoid_distance description"
 msgid "The distance between the nozzle and already printed parts when avoiding during travel moves."
 msgstr "Дистанция между соплом и уже напечатанными частями, выдерживаемая при перемещении."
-
-#: /fdmprinter.def.json
-msgctxt "retraction_hop_enabled label"
-msgid "Z Hop when Retracted"
-msgstr "Поднятие оси Z при откате"
-
-#: /fdmprinter.def.json
-msgctxt "retraction_hop_enabled description"
-msgid "Whenever a retraction is done, the build plate is lowered to create clearance between the nozzle and the print. It prevents the nozzle from hitting the print during travel moves, reducing the chance to knock the print from the build plate."
-msgstr "При выполнении отката между соплом и печатаемой деталью создаётся зазор. Это предотвращает возможность касания сопла частей детали при его перемещении, снижая вероятность смещения детали на столе."
-
-#: /fdmprinter.def.json
-msgctxt "retraction_hop_only_when_collides label"
-msgid "Z Hop Only Over Printed Parts"
-msgstr "Поднятие оси Z только над напечатанными частями"
-
-#: /fdmprinter.def.json
-msgctxt "retraction_hop_only_when_collides description"
-msgid "Only perform a Z Hop when moving over printed parts which cannot be avoided by horizontal motion by Avoid Printed Parts when Traveling."
-msgstr "Выполнять поднятие оси Z только в случае движения над напечатанными частями, которые нельзя обогнуть горизонтальным движением, используя «Обход напечатанных деталей» при перемещении."
-
-#: /fdmprinter.def.json
-msgctxt "retraction_hop label"
-msgid "Z Hop Height"
-msgstr "Высота поднятия оси Z"
-
-#: /fdmprinter.def.json
-msgctxt "retraction_hop description"
-msgid "The height difference when performing a Z Hop."
-msgstr "Расстояние, на которое приподнимается ось Z."
-
-#: /fdmprinter.def.json
-msgctxt "retraction_hop_after_extruder_switch label"
-msgid "Z Hop After Extruder Switch"
-msgstr "Поднятие оси Z после смены экструдера"
-
-#: /fdmprinter.def.json
-msgctxt "retraction_hop_after_extruder_switch description"
-msgid "After the machine switched from one extruder to the other, the build plate is lowered to create clearance between the nozzle and the print. This prevents the nozzle from leaving oozed material on the outside of a print."
-msgstr "При переключении принтера на другой экструдер между соплом и печатаемой деталью создаётся зазор. Это предотвращает возможность вытекания материала и его прилипание к внешней части печатаемой модели."
 
 #: /fdmprinter.def.json
 msgctxt "cooling label"
@@ -1864,7 +1864,7 @@ msgstr "Охлаждение"
 #: /fdmprinter.def.json
 msgctxt "cool_fan_enabled label"
 msgid "Enable Print Cooling"
-msgstr "Включить охлаждающие вентиляторы"
+msgstr "Включить вентиляторы"
 
 #: /fdmprinter.def.json
 msgctxt "cool_fan_enabled description"
@@ -1937,10 +1937,9 @@ msgid "Minimum Layer Time"
 msgstr "Минимальное время слоя"
 
 #: /fdmprinter.def.json
-#, fuzzy
 msgctxt "cool_min_layer_time description"
-msgid "The minimum time spent in a layer. This forces the printer to slow down, to at least spend the time set here in one layer. This allows the printed material to cool down properly before printing the next layer. Layers may still take shorter than the minimal layer time if Lift Head is disabled and if the Minimum Speed would otherwise be violated."
-msgstr "Минимальное время затрачиваемое на печать слоя. Эта величина заставляет принтер замедлится, чтобы уложиться в указанное время при печати слоя. Это позволяет материалу остыть до нужной температуры перед печатью следующего слоя."
+msgid "The minimum time spent in a layer. This forces the printer to slow down, to at least spend the time set here in one layer. This allows the printed material to cool down properly before printing the next layer."
+msgstr "Минимальное время, затрачиваемое на печать слоя. Эта величина заставляет принтер замедлиться, чтобы уложиться в указанное время при печати слоя. Это позволяет материалу остыть до нужной температуры перед печатью следующего слоя."
 
 #: /fdmprinter.def.json
 msgctxt "cool_min_speed label"
@@ -1981,46 +1980,6 @@ msgstr "Разрешить поддержки"
 msgctxt "support_enable description"
 msgid "Enable support structures. These structures support parts of the model with severe overhangs."
 msgstr "Разрешить печать поддержек. Такие структуры поддерживают части моделей со значительными навесаниями."
-
-#: /fdmprinter.def.json
-msgctxt "support_extruder_nr label"
-msgid "Support Extruder"
-msgstr "Экструдер поддержек"
-
-#: /fdmprinter.def.json
-msgctxt "support_extruder_nr description"
-msgid "The extruder train to use for printing the support. This is used in multi-extrusion."
-msgstr "Этот экструдер используется для печати поддержек. Используется при наличии нескольких экструдеров."
-
-#: /fdmprinter.def.json
-msgctxt "support_infill_extruder_nr label"
-msgid "Support Infill Extruder"
-msgstr "Экструдер заполнения поддержек. Используется при наличии нескольких экструдеров."
-
-#: /fdmprinter.def.json
-msgctxt "support_infill_extruder_nr description"
-msgid "The extruder train to use for printing the infill of the support. This is used in multi-extrusion."
-msgstr "Этот экструдер используется для печати заполнения поддержек Используется при наличии нескольких экструдеров."
-
-#: /fdmprinter.def.json
-msgctxt "support_extruder_nr_layer_0 label"
-msgid "First Layer Support Extruder"
-msgstr "Экструдер первого слоя поддержек"
-
-#: /fdmprinter.def.json
-msgctxt "support_extruder_nr_layer_0 description"
-msgid "The extruder train to use for printing the first layer of support infill. This is used in multi-extrusion."
-msgstr "Этот экструдер используется для печати первого слоя заполнения поддержек. Используется при наличии нескольких экструдеров."
-
-#: /fdmprinter.def.json
-msgctxt "support_interface_extruder_nr label"
-msgid "Support Interface Extruder"
-msgstr "Экструдер связующего слоя поддержек"
-
-#: /fdmprinter.def.json
-msgctxt "support_interface_extruder_nr description"
-msgid "The extruder train to use for printing the roofs and bottoms of the support. This is used in multi-extrusion."
-msgstr "Этот экструдер используется для печати верха и ниха поддержек Используется при наличии нескольких экструдеров."
 
 #: /fdmprinter.def.json
 msgctxt "support_type label"
@@ -2418,16 +2377,6 @@ msgid "Raft"
 msgstr "Подложка"
 
 #: /fdmprinter.def.json
-msgctxt "adhesion_extruder_nr label"
-msgid "Build Plate Adhesion Extruder"
-msgstr "Экструдер первого слоя"
-
-#: /fdmprinter.def.json
-msgctxt "adhesion_extruder_nr description"
-msgid "The extruder train to use for printing the skirt/brim/raft. This is used in multi-extrusion."
-msgstr "Этот экструдер используется дл печати юбки/каймы/подложки. Используется при наличии нескольких экструдеров."
-
-#: /fdmprinter.def.json
 msgctxt "skirt_line_count label"
 msgid "Skirt Line Count"
 msgstr "Количество линий юбки"
@@ -2559,7 +2508,7 @@ msgstr "Дистанция между линиями верха поддержк
 #: /fdmprinter.def.json
 msgctxt "raft_surface_line_spacing description"
 msgid "The distance between the raft lines for the top raft layers. The spacing should be equal to the line width, so that the surface is solid."
-msgstr "Расстояние между линиями подложки на её верхних слоёв. Расстояние должно быть равно ширине линии, тогда поверхность будет цельной."
+msgstr "Расстояние между линиями подложки на её верхних слоёв. Расстояние должно быть равно ширине линии, тогда поверхность будет сплошной."
 
 #: /fdmprinter.def.json
 msgctxt "raft_interface_thickness label"
@@ -2679,7 +2628,7 @@ msgstr "Ускорение печати верха подложки"
 #: /fdmprinter.def.json
 msgctxt "raft_surface_acceleration description"
 msgid "The acceleration with which the top raft layers are printed."
-msgstr "Ускорение , с которым печатаются верхние слои подложки."
+msgstr "Ускорение, с которым печатаются верхние слои подложки."
 
 #: /fdmprinter.def.json
 msgctxt "raft_interface_acceleration label"
@@ -2689,7 +2638,7 @@ msgstr "Ускорение печати середины подложки"
 #: /fdmprinter.def.json
 msgctxt "raft_interface_acceleration description"
 msgid "The acceleration with which the middle raft layer is printed."
-msgstr "Ускорение , с которым печатаются средние слои подложки."
+msgstr "Ускорение, с которым печатаются средние слои подложки."
 
 #: /fdmprinter.def.json
 msgctxt "raft_base_acceleration label"
@@ -2699,47 +2648,47 @@ msgstr "Ускорение печати низа подложки"
 #: /fdmprinter.def.json
 msgctxt "raft_base_acceleration description"
 msgid "The acceleration with which the base raft layer is printed."
-msgstr "Ускорение , с которым печатаются нижние слои подложки."
+msgstr "Ускорение, с которым печатаются нижние слои подложки."
 
 #: /fdmprinter.def.json
 msgctxt "raft_jerk label"
 msgid "Raft Print Jerk"
-msgstr ""
+msgstr "Рывок подложки"
 
 #: /fdmprinter.def.json
 msgctxt "raft_jerk description"
 msgid "The jerk with which the raft is printed."
-msgstr ""
+msgstr "Скорость изменения ускорений при печати подложки."
 
 #: /fdmprinter.def.json
 msgctxt "raft_surface_jerk label"
 msgid "Raft Top Print Jerk"
-msgstr ""
+msgstr "Рывок печати верха подложки"
 
 #: /fdmprinter.def.json
 msgctxt "raft_surface_jerk description"
 msgid "The jerk with which the top raft layers are printed."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости, с которой печатается верхние слои подложки."
 
 #: /fdmprinter.def.json
 msgctxt "raft_interface_jerk label"
 msgid "Raft Middle Print Jerk"
-msgstr ""
+msgstr "Рывок печати середины подложки"
 
 #: /fdmprinter.def.json
 msgctxt "raft_interface_jerk description"
 msgid "The jerk with which the middle raft layer is printed."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости, с которой печатается срелние слои подложки."
 
 #: /fdmprinter.def.json
 msgctxt "raft_base_jerk label"
 msgid "Raft Base Print Jerk"
-msgstr ""
+msgstr "Рывок печати низа подложки"
 
 #: /fdmprinter.def.json
 msgctxt "raft_base_jerk description"
 msgid "The jerk with which the base raft layer is printed."
-msgstr ""
+msgstr "Изменение максимальной мгновенной скорости, с которой печатается нижние слои подложки."
 
 #: /fdmprinter.def.json
 msgctxt "raft_fan_speed label"
@@ -2790,6 +2739,56 @@ msgstr "Два экструдера"
 msgctxt "dual description"
 msgid "Settings used for printing with multiple extruders."
 msgstr "Параметры, используемые для печати несколькими экструдерами."
+
+#: /fdmprinter.def.json
+msgctxt "adhesion_extruder_nr label"
+msgid "Build Plate Adhesion Extruder"
+msgstr "Экструдер первого слоя"
+
+#: /fdmprinter.def.json
+msgctxt "adhesion_extruder_nr description"
+msgid "The extruder train to use for printing the skirt/brim/raft. This is used in multi-extrusion."
+msgstr "Этот экструдер используется дл печати юбки/каймы/подложки. Используется при наличии нескольких экструдеров."
+
+#: /fdmprinter.def.json
+msgctxt "support_extruder_nr label"
+msgid "Support Extruder"
+msgstr "Экструдер поддержек"
+
+#: /fdmprinter.def.json
+msgctxt "support_extruder_nr description"
+msgid "The extruder train to use for printing the support. This is used in multi-extrusion."
+msgstr "Этот экструдер используется для печати поддержек. Используется при наличии нескольких экструдеров."
+
+#: /fdmprinter.def.json
+msgctxt "support_infill_extruder_nr label"
+msgid "Support Infill Extruder"
+msgstr "Экструдер заполнения поддержек. Используется при наличии нескольких экструдеров."
+
+#: /fdmprinter.def.json
+msgctxt "support_infill_extruder_nr description"
+msgid "The extruder train to use for printing the infill of the support. This is used in multi-extrusion."
+msgstr "Этот экструдер используется для печати заполнения поддержек Используется при наличии нескольких экструдеров."
+
+#: /fdmprinter.def.json
+msgctxt "support_extruder_nr_layer_0 label"
+msgid "First Layer Support Extruder"
+msgstr "Экструдер первого слоя поддержек"
+
+#: /fdmprinter.def.json
+msgctxt "support_extruder_nr_layer_0 description"
+msgid "The extruder train to use for printing the first layer of support infill. This is used in multi-extrusion."
+msgstr "Этот экструдер используется для печати первого слоя заполнения поддержек. Используется при наличии нескольких экструдеров."
+
+#: /fdmprinter.def.json
+msgctxt "support_interface_extruder_nr label"
+msgid "Support Interface Extruder"
+msgstr "Экструдер связующего слоя поддержек"
+
+#: /fdmprinter.def.json
+msgctxt "support_interface_extruder_nr description"
+msgid "The extruder train to use for printing the roofs and bottoms of the support. This is used in multi-extrusion."
+msgstr "Этот экструдер используется для печати верха и ниха поддержек Используется при наличии нескольких экструдеров."
 
 #: /fdmprinter.def.json
 msgctxt "prime_tower_enable label"
@@ -2942,16 +2941,6 @@ msgid "Normally Cura tries to stitch up small holes in the mesh and remove parts
 msgstr "Обычно Cura пытается закрыть небольшие отверстия в объекте и убрать части слоя с большими отверстиями. Включение этого параметра сохраняет те части, что не могут быть сшиты. Этот параметр должен использоваться как последний вариант, когда уже ничего не помогает получить нормальный GCode."
 
 #: /fdmprinter.def.json
-msgctxt "carve_multiple_volumes label"
-msgid "Remove Mesh Intersection"
-msgstr "Удалить пересечения объектов"
-
-#: /fdmprinter.def.json
-msgctxt "carve_multiple_volumes description"
-msgid "Remove areas where multiple objecs are overlapping with each other. This is may be used if merged dual material objects overlap with each other."
-msgstr "Удаляет области где несколько объектов перекрываются друг с другом. Можно использовать при пересечении объединённых мультиматериальных объектов."
-
-#: /fdmprinter.def.json
 msgctxt "blackmagic label"
 msgid "Special Modes"
 msgstr "Специальные режимы"
@@ -3034,7 +3023,7 @@ msgstr "Спирально печатать внешний контур"
 #: /fdmprinter.def.json
 msgctxt "magic_spiralize description"
 msgid "Spiralize smooths out the Z move of the outer edge. This will create a steady Z increase over the whole print. This feature turns a solid model into a single walled print with a solid bottom. This feature used to be called Joris in older versions."
-msgstr "Спирально сглаживать движение по оси Z, печатая внешний контур. Приводит к постоянному увеличению Z координаты во время печати. Этот параметр превращает твёрдый объект в одностенную модель с твёрдым дном. Раньше этот параметр назывался Joris."
+msgstr "Спирально сглаживать движение по оси Z, печатая внешний контур. Приводит к постоянному увеличению Z координаты во время печати. Этот параметр превращает сплошной объект в одностенную модель с твёрдым дном. Раньше этот параметр назывался Joris."
 
 #: /fdmprinter.def.json
 msgctxt "experimental label"
@@ -3259,7 +3248,7 @@ msgstr "Печатать только внешнюю поверхность с �
 #: /fdmprinter.def.json
 msgctxt "wireframe_height label"
 msgid "WP Connection Height"
-msgstr "Высота соединений при КП"
+msgstr "Высота соединений (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_height description"
@@ -3269,12 +3258,12 @@ msgstr "Высота диагональных линий между двумя �
 #: /fdmprinter.def.json
 msgctxt "wireframe_roof_inset label"
 msgid "WP Roof Inset Distance"
-msgstr ""
+msgstr "Расстояние крыши внутрь (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_roof_inset description"
 msgid "The distance covered when making a connection from a roof outline inward. Only applies to Wire Printing."
-msgstr ""
+msgstr "Покрываемое расстояние при создании соединения от внешней части крыши внутрь. Применяется только при каркасной печати."
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_printspeed label"
@@ -3289,7 +3278,7 @@ msgstr "Скорость с которой двигается сопло, выд
 #: /fdmprinter.def.json
 msgctxt "wireframe_printspeed_bottom label"
 msgid "WP Bottom Printing Speed"
-msgstr "Скорость печати низа при КП"
+msgstr "Скорость печати низа (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_printspeed_bottom description"
@@ -3299,27 +3288,27 @@ msgstr "Скорость, с которой печатается первый с
 #: /fdmprinter.def.json
 msgctxt "wireframe_printspeed_up label"
 msgid "WP Upward Printing Speed"
-msgstr ""
+msgstr "Скорость печати вверх (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_printspeed_up description"
 msgid "Speed of printing a line upward 'in thin air'. Only applies to Wire Printing."
-msgstr ""
+msgstr "Скорость печати линии вверх \"в разрежённом воздухе\". Применяется только при каркасной печати."
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_printspeed_down label"
 msgid "WP Downward Printing Speed"
-msgstr ""
+msgstr "Скорость печати вниз (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_printspeed_down description"
 msgid "Speed of printing a line diagonally downward. Only applies to Wire Printing."
-msgstr ""
+msgstr "Скорость печати линии диагонально вниз. Применяется только при каркасной печати."
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_printspeed_flat label"
 msgid "WP Horizontal Printing Speed"
-msgstr "Скорость горизонтальной печати при КП"
+msgstr "Скорость горизонтальной печати (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_printspeed_flat description"
@@ -3339,7 +3328,7 @@ msgstr "Компенсация потока: объём выдавленного
 #: /fdmprinter.def.json
 msgctxt "wireframe_flow_connection label"
 msgid "WP Connection Flow"
-msgstr "Поток соединений при КП"
+msgstr "Поток соединений (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_flow_connection description"
@@ -3349,7 +3338,7 @@ msgstr "Компенсация потока при движении вверх �
 #: /fdmprinter.def.json
 msgctxt "wireframe_flow_flat label"
 msgid "WP Flat Flow"
-msgstr "Поток горизонтальных линий при КП"
+msgstr "Поток горизонтальных линий (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_flow_flat description"
@@ -3359,7 +3348,7 @@ msgstr "Компенсация потока при печати плоских �
 #: /fdmprinter.def.json
 msgctxt "wireframe_top_delay label"
 msgid "WP Top Delay"
-msgstr "Верхняя задержка при КП"
+msgstr "Верхняя задержка (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_top_delay description"
@@ -3369,7 +3358,7 @@ msgstr "Задержка после движения вверх, чтобы та
 #: /fdmprinter.def.json
 msgctxt "wireframe_bottom_delay label"
 msgid "WP Bottom Delay"
-msgstr "Нижняя задержка при КП"
+msgstr "Нижняя задержка (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_bottom_delay description"
@@ -3379,7 +3368,7 @@ msgstr "Задержка после движения вниз. Применяе�
 #: /fdmprinter.def.json
 msgctxt "wireframe_flat_delay label"
 msgid "WP Flat Delay"
-msgstr "Горизонтальная задержка при КП"
+msgstr "Горизонтальная задержка (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_flat_delay description"
@@ -3389,7 +3378,7 @@ msgstr "Задержка между двумя горизонтальными с
 #: /fdmprinter.def.json
 msgctxt "wireframe_up_half_speed label"
 msgid "WP Ease Upward"
-msgstr ""
+msgstr "Ослабление вверх (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_up_half_speed description"
@@ -3403,7 +3392,7 @@ msgstr ""
 #: /fdmprinter.def.json
 msgctxt "wireframe_top_jump label"
 msgid "WP Knot Size"
-msgstr "Размер узла при КП"
+msgstr "Размер узла (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_top_jump description"
@@ -3413,7 +3402,7 @@ msgstr "Создаёт небольшой узел наверху возвыша
 #: /fdmprinter.def.json
 msgctxt "wireframe_fall_down label"
 msgid "WP Fall Down"
-msgstr "Падение каркасной печати"
+msgstr "Падение (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_fall_down description"
@@ -3423,7 +3412,7 @@ msgstr "Расстояние с которой материал падает в�
 #: /fdmprinter.def.json
 msgctxt "wireframe_drag_along label"
 msgid "WP Drag Along"
-msgstr "Протягивание при каркасной печати"
+msgstr "Протягивание (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_drag_along description"
@@ -3433,12 +3422,12 @@ msgstr "Расстояние, на которое материал от восх
 #: /fdmprinter.def.json
 msgctxt "wireframe_strategy label"
 msgid "WP Strategy"
-msgstr "Стратегия каркасной печати"
+msgstr "Стратегия (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_strategy description"
 msgid "Strategy for making sure two consecutive layers connect at each connection point. Retraction lets the upward lines harden in the right position, but may cause filament grinding. A knot can be made at the end of an upward line to heighten the chance of connecting to it and to let the line cool; however, it may require slow printing speeds. Another strategy is to compensate for the sagging of the top of an upward line; however, the lines won't always fall down as predicted."
-msgstr ""
+msgstr "Стратегия проверки соединения двух соседних слоёв в соответствующих точках. Откат укрепляет восходящие линии в нужных местах, но может привести к истиранию нити материала. Узел может быть сделан в конце восходящей линии для повышения шанса соединения с ним и позволить линии охладиться; однако, это может потребовать пониженных скоростей печати. Другая стратегия состоит в том, чтобы компенсировать провисание вершины восходящей линии; однако, строки будут не всегда падать, как предсказано."
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_strategy option compensate"
@@ -3458,7 +3447,7 @@ msgstr "Откат"
 #: /fdmprinter.def.json
 msgctxt "wireframe_straight_before_down label"
 msgid "WP Straighten Downward Lines"
-msgstr ""
+msgstr "Прямые нисходящие линии (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_straight_before_down description"
@@ -3468,7 +3457,7 @@ msgstr "Процент диагонально нисходящей линии, �
 #: /fdmprinter.def.json
 msgctxt "wireframe_roof_fall_down label"
 msgid "WP Roof Fall Down"
-msgstr ""
+msgstr "Опадание крыши (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_roof_fall_down description"
@@ -3478,32 +3467,40 @@ msgstr "Расстояние, на котором линии горизонта�
 #: /fdmprinter.def.json
 msgctxt "wireframe_roof_drag_along label"
 msgid "WP Roof Drag Along"
-msgstr ""
+msgstr "Протягивание крыши (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_roof_drag_along description"
 msgid "The distance of the end piece of an inward line which gets dragged along when going back to the outer outline of the roof. This distance is compensated for. Only applies to Wire Printing."
-msgstr ""
+msgstr "Расстояние финальной части восходящей линии, которая протягивается при возвращении к внешнему контуру крыши. Это расстояние скомпенсировано. Применяется только при каркасной печати."
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_roof_outer_delay label"
 msgid "WP Roof Outer Delay"
-msgstr ""
+msgstr "Задержка внешней крыши (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_roof_outer_delay description"
 msgid "Time spent at the outer perimeters of hole which is to become a roof. Longer times can ensure a better connection. Only applies to Wire Printing."
-msgstr ""
+msgstr "Время, потраченное на внешних периметрах отверстия, которое станет крышей. Увеличенное время может придать прочности. Применяется только при каркасной печати."
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_nozzle_clearance label"
 msgid "WP Nozzle Clearance"
-msgstr ""
+msgstr "Зазор сопла (КП)"
 
 #: /fdmprinter.def.json
 msgctxt "wireframe_nozzle_clearance description"
 msgid "Distance between the nozzle and horizontally downward lines. Larger clearance results in diagonally downward lines with a less steep angle, which in turn results in less upward connections with the next layer. Only applies to Wire Printing."
-msgstr ""
+msgstr "Зазор между соплом и горизонтально нисходящими линиями. Большее значение уменьшает угол нисхождения, что приводит уменьшению восходящих соединений на следующем слое. Применяется только при каркасной печати."
+
+#~ msgctxt "carve_multiple_volumes label"
+#~ msgid "Remove Mesh Intersection"
+#~ msgstr "Удалить пересечения объектов"
+
+#~ msgctxt "carve_multiple_volumes description"
+#~ msgid "Remove areas where multiple objecs are overlapping with each other. This is may be used if merged dual material objects overlap with each other."
+#~ msgstr "Удаляет области где несколько объектов перекрываются друг с другом. Можно использовать при пересечении объединённых мультиматериальных объектов."
 
 #~ msgctxt "remove_overlapping_walls_enabled label"
 #~ msgid "Remove Overlapping Wall Parts"

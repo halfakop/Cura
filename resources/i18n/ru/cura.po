@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-25 20:14+0300\n"
-"PO-Revision-Date: 2016-10-25 20:16+0300\n"
+"POT-Creation-Date: 2016-10-26 09:24+0300\n"
+"PO-Revision-Date: 2016-10-26 15:49+0300\n"
 "Last-Translator: Ruslan Popov <ruslan.popov@gmail.com>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -31,7 +31,7 @@ msgstr "Ой!"
 #: /Users/rad/devel/reprap/cura/cura/CrashHandler.py:48
 msgctxt "@label"
 msgid "<p>A fatal exception has occurred that we could not recover from!</p><p>Please use the information below to post a bug report at <a href=\"http://github.com/Ultimaker/Cura/issues\">http://github.com/Ultimaker/Cura/issues</a></p>"
-msgstr "<p>Выскочило необработанное исключение и мы не смогли его обработать!</p><p>Пожалуйста, используйте информацию ниже для создания отчёта об ошибке на <a href=\"http://github.com/Ultimaker/Cura/issues\">http://github.com/Ultimaker/Cura/issues</a></p>"
+msgstr "<p>Произошла неожиданная ошибка и мы не смогли его обработать!</p><p>Пожалуйста, используйте информацию ниже для создания отчёта об ошибке на <a href=\"http://github.com/Ultimaker/Cura/issues\">http://github.com/Ultimaker/Cura/issues</a></p>"
 
 #: /Users/rad/devel/reprap/cura/cura/CrashHandler.py:68
 msgctxt "@action:button"
@@ -107,20 +107,20 @@ msgctxt "@info:status"
 msgid "Failed to import profile from <filename>{0}</filename>: <message>{1}</message>"
 msgstr "Невозможно импортировать профиль из <filename>{0}</filename>: <message>{1}</message>"
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:176
-#: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:210
+#: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:175
+#: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:211
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Successfully imported profile {0}"
 msgstr "Успешно импортирован профиль {0}"
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:213
+#: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:214
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Profile {0} has an unknown file type."
 msgstr "Профиль {0} имеет неизвестный тип файла."
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:219
+#: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:220
 msgctxt "@label"
 msgid "Custom profile"
 msgstr "Собственный профиль"
@@ -128,35 +128,35 @@ msgstr "Собственный профиль"
 #: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:77
 #: /Users/rad/devel/reprap/cura/plugins/CuraEngineBackend/CuraEngineBackend.py:233
 msgctxt "@info:status"
-msgid "The selected material is incompatible with the selected machine or configuration."
+msgid "The selected material is imcompatible with the selected machine or configuration."
 msgstr "Выбранный материал несовместим с указанным принтером или конфигурацией."
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:866
+#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:816
 msgctxt "@label"
 msgid "You made changes to the following setting(s):"
 msgstr "Вы сделали изменения следующих настроек:"
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:881
+#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:831
 msgctxt "@window:title"
 msgid "Switched profiles"
 msgstr "Переключены профили"
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:883
+#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:833
 msgctxt "@label"
 msgid "Do you want to transfer your changed settings to this profile?"
 msgstr "Вы желаете перенести свои изменения параметров в этот профиль?"
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:885
+#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:835
 msgctxt "@label"
 msgid "If you transfer your settings they will override settings in the profile."
 msgstr "Если вы перенесёте свои параметры, они перезапишут настройки профиля."
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:975
+#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:925
 msgctxt "@label"
 msgid "Nozzle"
 msgstr "Сопло"
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:1175
+#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:1125
 msgctxt "@info:status"
 msgid "Unable to find a quality profile for this combination. Default settings will be used instead."
 msgstr "Невозможно найти профиль качества для этой комбинации. Будут использованы параметры по умолчанию."
@@ -210,7 +210,7 @@ msgstr "Движок CuraEngine"
 #: /Users/rad/devel/reprap/cura/plugins/CuraEngineBackend/__init__.py:15
 msgctxt "@info:whatsthis"
 msgid "Provides the link to the CuraEngine slicing backend."
-msgstr "Предоставляет связь к движку CuraEngine."
+msgstr "Предоставляет интерфейс к движку CuraEngine."
 
 #: /Users/rad/devel/reprap/cura/plugins/CuraEngineBackend/CuraEngineBackend.py:242
 msgctxt "@info:status"
@@ -399,60 +399,60 @@ msgctxt "@info:whatsthis"
 msgid "Provides removable drive hotplugging and writing support."
 msgstr "Предоставляет поддержку для подключения и записи на внешний носитель."
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:23
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:20
 msgctxt "@action:button"
 msgid "Save to Removable Drive"
 msgstr "Сохранить на внешний носитель"
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:24
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:21
 #, python-brace-format
 msgctxt "@item:inlistbox"
 msgid "Save to Removable Drive {0}"
 msgstr "Сохранить на внешний носитель {0}"
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:80
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:76
 #, python-brace-format
 msgctxt "@info:progress"
 msgid "Saving to Removable Drive <filename>{0}</filename>"
 msgstr "Сохранение на внешний носитель <filename>{0}</filename>"
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:90
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:93
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:86
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:89
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Could not save to <filename>{0}</filename>: <message>{1}</message>"
 msgstr "Не могу сохранить <filename>{0}</filename>: <message>{1}</message>"
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:129
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:109
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Saved to Removable Drive {0} as {1}"
 msgstr "Сохранено на внешний носитель {0} как {1}"
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:130
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:110
 msgctxt "@action:button"
 msgid "Eject"
 msgstr "Извлечь"
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:130
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:110
 #, python-brace-format
 msgctxt "@action"
 msgid "Eject removable device {0}"
 msgstr "Извлекает внешний носитель {0}"
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:135
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:115
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Could not save to removable drive {0}: {1}"
 msgstr "Невозможно сохранить на внешний носитель {0}: {1}"
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:145
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:125
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Ejected {0}. You can now safely remove the drive."
 msgstr "Извлечено {0}. Вы можете теперь безопасно извлечь носитель."
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:147
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:127
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Failed to eject {0}. Another program may be using the drive."
@@ -486,7 +486,7 @@ msgstr "Отменить"
 #: /Users/rad/devel/reprap/cura/plugins/SolidView/__init__.py:12
 msgctxt "@label"
 msgid "Solid View"
-msgstr "Просмотр модели"
+msgstr "Обзор"
 
 #: /Users/rad/devel/reprap/cura/plugins/SolidView/__init__.py:15
 msgctxt "@info:whatsthis"
@@ -707,7 +707,7 @@ msgstr "Размывание"
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:184
 msgctxt "@action:button"
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: /Users/rad/devel/reprap/cura/plugins/ImageReader/ConfigUI.qml:191
 msgctxt "@action:button"
@@ -1235,7 +1235,7 @@ msgstr "Добавить принтер"
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:19
 msgctxt "@title:window"
 msgid "Cura"
-msgstr ""
+msgstr "Cura"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Cura.qml:68
 msgctxt "@title:menu menubar:toplevel"
@@ -2005,7 +2005,7 @@ msgstr ""
 "\n"
 "Щёлкните для восстановления значения из профиля."
 
-#: /Users/rad/devel/reprap/cura/resources/qml/Settings/SettingItem.qml:268
+#: /Users/rad/devel/reprap/cura/resources/qml/Settings/SettingItem.qml:251
 msgctxt "@label"
 msgid ""
 "This setting is normally calculated, but it currently has an absolute value set.\n"
@@ -2043,8 +2043,8 @@ msgstr "Монитор принтера"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Sidebar.qml:382
 msgctxt "@title:tab"
-msgid "Recommended"
-msgstr "Рекомендованная"
+msgid "Simple"
+msgstr "Простая"
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Sidebar.qml:383
 msgctxt "@title:tab"
@@ -2067,7 +2067,7 @@ msgctxt "@label"
 msgid "Profile:"
 msgstr "Профиль:"
 
-#: /Users/rad/devel/reprap/cura/resources/qml/SidebarHeader.qml:325
+#: /Users/rad/devel/reprap/cura/resources/qml/SidebarHeader.qml:316
 msgctxt "@tooltip"
 msgid ""
 "Some setting values are different from the values stored in the profile.\n"
@@ -2169,8 +2169,8 @@ msgid "Need help improving your prints? Read the <a href='%1'>Ultimaker Troubles
 msgstr "Нужна помощь с улучшением качества печати? Прочитайте <a href='%1'>Руководства Ultimaker по решению проблем</a>"
 
 #~ msgctxt "@title:tab"
-#~ msgid "Simple"
-#~ msgstr "Простая"
+#~ msgid "Recommended"
+#~ msgstr "Рекомендованная"
 
 #~ msgid "Modify G-Code"
 #~ msgstr "Изменить G-код"

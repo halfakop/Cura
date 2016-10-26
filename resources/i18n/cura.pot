@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-25 20:14+0300\n"
+"POT-Creation-Date: 2016-10-26 09:24+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -119,20 +119,20 @@ msgid ""
 "message>"
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:176
-#: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:210
+#: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:175
+#: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:211
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Successfully imported profile {0}"
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:213
+#: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:214
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Profile {0} has an unknown file type."
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:219
+#: /Users/rad/devel/reprap/cura/cura/Settings/CuraContainerRegistry.py:220
 msgctxt "@label"
 msgid "Custom profile"
 msgstr ""
@@ -141,37 +141,37 @@ msgstr ""
 #: /Users/rad/devel/reprap/cura/plugins/CuraEngineBackend/CuraEngineBackend.py:233
 msgctxt "@info:status"
 msgid ""
-"The selected material is incompatible with the selected machine or "
+"The selected material is imcompatible with the selected machine or "
 "configuration."
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:866
+#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:816
 msgctxt "@label"
 msgid "You made changes to the following setting(s):"
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:881
+#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:831
 msgctxt "@window:title"
 msgid "Switched profiles"
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:883
+#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:833
 msgctxt "@label"
 msgid "Do you want to transfer your changed settings to this profile?"
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:885
+#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:835
 msgctxt "@label"
 msgid ""
 "If you transfer your settings they will override settings in the profile."
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:975
+#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:925
 msgctxt "@label"
 msgid "Nozzle"
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:1175
+#: /Users/rad/devel/reprap/cura/cura/Settings/MachineManager.py:1125
 msgctxt "@info:status"
 msgid ""
 "Unable to find a quality profile for this combination. Default settings will "
@@ -422,60 +422,60 @@ msgctxt "@info:whatsthis"
 msgid "Provides removable drive hotplugging and writing support."
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:23
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:20
 msgctxt "@action:button"
 msgid "Save to Removable Drive"
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:24
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:21
 #, python-brace-format
 msgctxt "@item:inlistbox"
 msgid "Save to Removable Drive {0}"
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:80
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:76
 #, python-brace-format
 msgctxt "@info:progress"
 msgid "Saving to Removable Drive <filename>{0}</filename>"
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:90
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:93
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:86
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:89
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Could not save to <filename>{0}</filename>: <message>{1}</message>"
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:129
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:109
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Saved to Removable Drive {0} as {1}"
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:130
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:110
 msgctxt "@action:button"
 msgid "Eject"
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:130
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:110
 #, python-brace-format
 msgctxt "@action"
 msgid "Eject removable device {0}"
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:135
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:115
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Could not save to removable drive {0}: {1}"
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:145
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:125
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Ejected {0}. You can now safely remove the drive."
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:147
+#: /Users/rad/devel/reprap/cura/plugins/RemovableDriveOutputDevice/RemovableDriveOutputDevice.py:127
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Failed to eject {0}. Another program may be using the drive."
@@ -1795,23 +1795,7 @@ msgstr ""
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialView.qml:76
 msgctxt "@label"
-msgid "Printer Monitor"
-msgstr ""
-
-#: /home/ruben/Projects/Cura/resources/qml/Sidebar.qml:382
-msgctxt "@title:tab"
-msgid "Simple"
-msgstr ""
-
-#: /home/ruben/Projects/Cura/resources/qml/Sidebar.qml:383
-msgctxt "@title:tab"
-msgid "Advanced"
-msgstr ""
-
-#: /home/ruben/Projects/Cura/resources/qml/Menus/MaterialMenu.qml:18
-#: /home/ruben/Projects/Cura/resources/qml/Menus/NozzleMenu.qml:18
-msgctxt "@title:menuitem %1 is the value from the printer"
-msgid "Automatic: %1"
+msgid "Color"
 msgstr ""
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Preferences/MaterialView.qml:110
@@ -2085,7 +2069,7 @@ msgid ""
 "Click to restore the value of the profile."
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/resources/qml/Settings/SettingItem.qml:268
+#: /Users/rad/devel/reprap/cura/resources/qml/Settings/SettingItem.qml:251
 msgctxt "@label"
 msgid ""
 "This setting is normally calculated, but it currently has an absolute value "
@@ -2121,7 +2105,7 @@ msgstr ""
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Sidebar.qml:382
 msgctxt "@title:tab"
-msgid "Recommended"
+msgid "Simple"
 msgstr ""
 
 #: /Users/rad/devel/reprap/cura/resources/qml/Sidebar.qml:383
@@ -2145,7 +2129,7 @@ msgctxt "@label"
 msgid "Profile:"
 msgstr ""
 
-#: /Users/rad/devel/reprap/cura/resources/qml/SidebarHeader.qml:325
+#: /Users/rad/devel/reprap/cura/resources/qml/SidebarHeader.qml:316
 msgctxt "@tooltip"
 msgid ""
 "Some setting values are different from the values stored in the profile.\n"
